@@ -4,4 +4,5 @@ title: Publications
 subtitle: Nick Karnesis
 ---
 
-{: .box-warning} Under construction.
+{: .box-warning}
+Under construction.
