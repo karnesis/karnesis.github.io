@@ -4,6 +4,7 @@ title: Searching for Gravitational Waves
 subtitle: But from Space!
 cover-img: /assets/img/FNljP1sWQAMS_nm.jpeg
 thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/thumb.png
 tags: [Gravitational Waves, LISA]
 comments: true
 ---
