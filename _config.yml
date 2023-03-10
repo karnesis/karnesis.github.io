@@ -22,9 +22,9 @@ author: Nick Karnesis
 navbar-links:
   About Me: "aboutme"
   Resources:
+    - Research: "research"
     - Short CV: "cv"
     - Publications: "publications"
-  Research: "research"
 
 ################
 # --- Logo --- #
