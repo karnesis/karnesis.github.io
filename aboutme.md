@@ -8,7 +8,9 @@ Welcome to my small corner of the internet. My name is Nikos, and I am fascinate
 
 Right now I am located at the Aristotle University of Thessaloniki (AUTh), working on data analysis algorithms for the future ESA Laser Interferometer Space Antenna (LISA) mission.
 
+<p align="center">
 <img src="/assets/img/me.png" alt= "Nikos in 2022" width="20%" height="20%">
+</p>
 
 ### My story
 
