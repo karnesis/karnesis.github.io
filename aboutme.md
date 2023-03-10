@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: The story so far
+subtitle: Very briefly
 ---
 
 Well, my name is Nick and I really enjoy working on science or science-related topics! A short list of those are
