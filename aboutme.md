@@ -4,10 +4,9 @@ title: About me
 subtitle: Very briefly
 ---
 
-Well, my name is Nick and I really enjoy working on science or science-related topics! A short list of those are
+Welcome to my small corner of the internet. My name is Nikos Karnesis, and I am fascinated by Gravitational Wave physics. In particular I am really interested in searching for Gravitational-Wave signals buried in the instrumental noise.
 
-- Physics, and Gravitational Waves (GW) physics in particular
-- Instrumentation and Data Analysis
+Right now I am located at the Aristotle University of Thessaloniki (AUTh), working on data analysis algorithms for the future ESA Laser Interferometer Space Antenna (LISA) mission.
 
 ### My story
 
