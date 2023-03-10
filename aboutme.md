@@ -7,6 +7,7 @@ subtitle: Nick Karnesis
 Welcome to my small corner of the internet. My name is Nikos, and I am fascinated by Gravitational Wave physics. In particular I am really interested in searching for Gravitational-Wave signals buried in the instrumental noise.
 
 Right now I am located at the Aristotle University of Thessaloniki (AUTh), working on data analysis algorithms for the future ESA Laser Interferometer Space Antenna (LISA) mission.
+![LISA](https://karnesis.files.wordpress.com/2020/12/me.png?w=500){: .mx-auto.d-block :}
 
 ### My story
 
