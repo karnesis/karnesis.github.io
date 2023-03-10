@@ -1,16 +1,14 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: The story so far
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Well, my name is Nick and I really enjoy working on science or science-related topics! A short list of those are
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
+- Physics, and Gravitational Waves (GW) physics in particular
+- Instrumentation and Data Analysis
 
 ### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I began my studies at the [National Technical University of Athens](https://www.ntua.gr/en/), and in particular at the school of [Applied Mathematics and Physical Sciences](http://semfe.ntua.gr/en/). From the start I was drawn to data analysis and in particular to stochastic algorithms for parameter estimation. I had the chance to utilize my skills during my PhD at the [Institut d'Estudis Espacials de Catalunya](http://www.ieec.cat/en/home), where I worked on the preparation of the data analysis for the ESA LISA [Pathfinder mission](https://sci.esa.int/web/lisa-pathfinder) (LPF). During my first post-doc at the [AEI-Hannover](https://www.aei.mpg.de/), I had the privilege of participating in the mission operations, by analyzing real-time data, and designing experiments to be performed on-board the satellite. Following the astounding success of LPF, and during my time at the [APC](http://www.apc.univ-paris7.fr/APC_CS/) in Paris, I turned to the future space-based Gravitational-Wave observatory, the ESA [LISA mission](https://sci.esa.int/web/lisa). Since then, I have been focusing on simulation, data analysis, and the characterization of stochastic Gravitational-Wave signals with LISA. Currently, I am based at the AUTh, where I am developing a prototype data analysis pipeline for the mission, funded by the ESA [Prodex program](https://sci.esa.int/web/prodex/-/59648-programme-introduction). Funded by the MSCA, I am also working on building data analysis pipelines that will anable us to perform multi-messenger Astronomy, which is to capture the same event using both E/M and GW radiation!
