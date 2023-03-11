@@ -4,5 +4,4 @@ title: Short CV
 subtitle: Nick Karnesis
 ---
 
-{: .box-warning}
-Under construction.
+Well, here is [a short CV](/assets/documents/CV_karnesis.pdf) in PDF format. For more information please feel free to contact me!
