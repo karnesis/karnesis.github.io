@@ -142,12 +142,6 @@
   {% if page.comments and site.staticman.repository and site.staticman.branch %}
   <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
   {% endif %}
-
-  {% if page.head-extra %}
-    {% for file in page.head-extra %}
-      {% include {{ file }} %}
-    {% endfor %}
-  {% endif %}
   
   <link rel="stylesheet" href="/widgets/Nasa-ADS-Query-Importer-Widget/ads_query_importer_widget.css" type="text/css" />
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
@@ -156,5 +150,11 @@
     var ads_query_url = 'http://adsabs.harvard.edu/cgi-bin/basic_connect?qsearch=find a karnesis';
   </script>
   <script type="text/javascript" src="/widgets/Nasa-ADS-Query-Importer-Widget/ads_query_importer_widget.js"></script>
+  
+  {% if page.head-extra %}
+    {% for file in page.head-extra %}
+      {% include {{ file }} %}
+    {% endfor %}
+  {% endif %}
 
 </head>
