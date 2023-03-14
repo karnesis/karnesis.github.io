@@ -24,7 +24,7 @@ navbar-links:
   Resources:
     - Research: "research"
     - Short CV: "cv"
-    - Publications: "publications"
+    - Publications: "/_layouts/minimal.html"
 
 ################
 # --- Logo --- #
