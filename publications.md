@@ -15,7 +15,7 @@ subtitle: Nick Karnesis
   var ads_query_max_records_to_print="100"
 </script> 
 <script type="text/javascript" src="/widgets/Nasa-ADS-Query-Importer-Widget/ads_query_importer_widget.js"></script>
-<div id="ads_query_importer_widget"></div>
+<div id="/widgets/Nasa-ADS-Query-Importer-Widget/ads_query_importer_widget"></div>
 
 {: .box-warning}
 Under construction.
