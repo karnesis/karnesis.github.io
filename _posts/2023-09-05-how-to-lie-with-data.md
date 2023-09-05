@@ -9,4 +9,5 @@ tags: [data, statistics, lie, data science]
 comments: true
 ---
 
-> :warning: Under construction
+{: .box-warning}
+**Warning:** Under construction.
