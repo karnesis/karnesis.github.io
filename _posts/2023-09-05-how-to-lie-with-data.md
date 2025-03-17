@@ -76,13 +76,11 @@ Another example of a biased data-set is when asking questions to non-representat
 
 On the other hand, a too small data-set is also problematic. See the graph below, it shows the two possible outcomes of a fair coin-toss experiment. If we stop the experiment too early, we will most probably get the wrong answer.
 
-<div align="center">
-
+.center[ 
 | ![small_dataset.png](/assets/img/data-lies-post/small_dataset.png)  | 
 | :--------:  | 
 | *We need more coins Jim!*      | 
-
-</div>
+]
 
 --- 
 
