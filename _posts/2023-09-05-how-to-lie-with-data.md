@@ -92,13 +92,10 @@ Ah, one of my favorites... That is because it can be intentional or not, but it'
 
 Sometimes, when you need to prove that A causes B, and therefore we need to take some action related to A, you just need to show some correlation between them. Take for example the figure below:
 
-<div class="center-table" markdown>
-
-| ![funny_correlations.png](/assets/img/data-lies-post/funny_correlations.png)  | 
-| :--------:  | 
-| *Is Nick Cage to blame here?*      | 
-
-</div>
+<p align="center">
+<img src="/assets/img/data-lies-post/funny_correlations.png" alt="funny_correlations.png" width="80%" height="80%">
+</p>
+<p align=center> <it> Is Nick Cage to blame here? </it> </p>
 
 This is an example of spurious correlation, and I could not possibly imagine a casual model to connect the two measurements. 
 
