@@ -9,7 +9,7 @@ tags: [data, statistics, lie, data science]
 comments: true
 ---
 
-We are living in the era of information, and it's truly exciting. We can reach any kind of knowledge within milliseconds, and just from the palm of our hands. Today it is very hard to even remember how our everyday life was without this immediate access to information. I mean, remember making bets with your friends? In order to find out who's right and who's wrong we had to ask an "expert" of [dubious credentials](## "Probably that weird uncle that happened to be in the same room"), or worse, we had to physically go to the library. Sometimes I would spend too much time searching for the correct answer, being filled with anticipation for the time when I'd finally brag about how right I am [and how wrong was Bill](## "Screw you Bill, your intuition was always wrong, you jerk!"). Now it takes seconds!
+We are living in the era of information, and it's truly exciting. We can reach any kind of knowledge within milliseconds, and just from the palm of our hands. Today it is very hard to even remember how our everyday life was without this immediate access to information. I mean, remember making bets with your friends? In order to find out who's right and who's wrong we had to ask an "expert" with [dubious credentials](## "Probably that weird uncle that happened to be in the same room"), or worse, we had to physically go to the library. Sometimes I would spend too much time searching for the correct answer, being filled with anticipation for the time when I'd finally brag about how right I am [and how wrong was Bill](## "Screw you Bill, your intuition was always wrong, you jerk!"). Now it takes seconds!
 
 This instantaneous access to data makes our lives much easier; we can check immediately when a piece of information is true or false or verify one's claims by directly accessing and assessing the data. In principle, that would be a step towards a more civilised society, where any given discussion only happens on the solid grounds of measurements and crucial information; a society where the discussion would be focusing on possible solutions to our problems, rather than wasting time on ineffectual and counterproductive disagreements.
 
@@ -54,7 +54,7 @@ This is a very interesting case of lying with data, which, most of the times is 
 
 See the picture below (taken from the relevant [wikipedia article](https://en.wikipedia.org/wiki/Survivorship_bias)), which was used *a lot* during the pandemic. It represents the so-called _survival bias_, which is a special case of selection bias. The story goes as this: Imagine we are aviation engineers during the WWII and need to optimize armor reinforcement based on the sustained damage of planes that returned to base. The supposed damage is represented by the red dots in the figure. I would immediately (and naively) start patching up the damaged area, hoping that the plane would hold better during the next mission. Needless to say that I'd by fooling myself. I would be forgetting that I am  planning an upgrade strategy based on the planes that actually _made it back_, or in other words, on a biased sample of the overall population. 
 
-<div align="center">
+<div class="center-table" markdown>
 
 | ![Survivorship-bias.svg](/assets/img/data-lies-post/Survivorship-bias.png)  | 
 | :--------:  | 
@@ -66,7 +66,7 @@ A practice like this would inevitably lead to ineffective solutions (extra armor
 
 Another example of a biased data-set is when asking questions to non-representative parts of the population. For example, we shouldn't be asking about alcohol consumption during the local Beer Fest, or about peoples' favorite pie during an apple-pie contest. As you can imagine, designing a good field study is tricky and requires a lot of effort. That's why it's better to leave this part to the experts.
 
-<div align="center">
+<div class="center-table" markdown>
 
 | ![burgerfest.png](/assets/img/data-lies-post/burgerfest.png)  | 
 | :--------:  | 
@@ -76,11 +76,11 @@ Another example of a biased data-set is when asking questions to non-representat
 
 On the other hand, a too small data-set is also problematic. See the graph below, it shows the two possible outcomes of a fair coin-toss experiment. If we stop the experiment too early, we will most probably get the wrong answer.
 
-.center[ 
+
 | ![small_dataset.png](/assets/img/data-lies-post/small_dataset.png)  | 
 | :--------:  | 
 | *We need more coins Jim!*      | 
-]
+
 
 --- 
 
@@ -92,13 +92,13 @@ Ah, one of my favorites... That is because it can be intentional or not, but it'
 
 Sometimes, when you need to prove that A causes B, and therefore we need to take some action related to A, you just need to show some correlation between them. Take for example the figure below:
 
-.center[ 
+<div class="center-table" markdown>
 
 | ![funny_correlations.png](/assets/img/data-lies-post/funny_correlations.png)  | 
 | :--------:  | 
 | *Is Nick Cage to blame here?*      | 
 
-]
+</div>
 
 This is an example of spurious correlation, and I could not possibly imagine a casual model to connect the two measurements. 
 
@@ -121,19 +121,26 @@ In summary, we should always be careful with high-order statistics. When in doub
 
 When cheating, we can be imaginative. Highly technical details are hard to spot, and are many times hidden under layers of technical procedures. "Tweaking" some minor detail here, or "fixing an effect" there, can have considerable impact on the final result, which is no other than the single metric we report on scientific papers. Experts are usually able to spot those things, but sometimes replication of the whole analysis procedure is needed! However, the problem is that replication does not bring $ or fame, and therefore is quite often ignored, or completely omitted altogether. One might argue that this system is far from perfect, but so far it's the best we have. Eventually, malpractices in science are discovered, and people face the consequences (see section of _Direct data manipulation_ above). 
 
-### 3.3.1 Bad fits
+### 3.3.1 How fitting?
 
+Sometimes, it's quite straightforward to get easy answers out of the data. Patterns might be easy to spot, and therefore the connection between measurements is evident. But quite often this is not the case. Our measurements might be noisy or problematic, our models might be useless, or our methods too naive. This may happen in science as well, where we are pressured to provide a final answer for a given study. Then we might rush our analysis and present something like this:
 
+<p align="center">
+<img src="/assets/img/data-lies-post/bad-fit_1.jpg" alt= "No comment..." width="50%" height="50%">
+</p>
 
+Fitting a straight line through a cloud of points is easy, but also [pointless](## "pun intended!"). Any numerical result out of this model would contribute very little to our understanding of the data. On the other hand, using a model with a million parameters is also not appropriate, because it would create [overfitting](https://en.wikipedia.org/wiki/Overfitting) issues (the opposite is [underfitting](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/)). We constantly encounter these kind of problems in Gravitational Wave Astronomy as well! Our Gravitational Wave detectors (see [here](https://www.ligo.caltech.edu/news/ligo20240405) for our current ground-based ones, of [here](https://www.esa.int/Science_Exploration/Space_Science/LISA) for our future space observatory) detect different types of waveforms, and we need to carefully model them in order to extract them safely from the data. More of this in a future post!
 
 ### 3.3.2 p-hacking, a special category of hacking
 
 In statistics, we need to use metrics in order to decide between two competing hypotheses (science, duh!). In classical statistics, we have been using what is called the P-values. We begin by inventing two categories: The H0 is the so-called _null hypothesis_, which usually refers to the negative relationship of the particular effect, i.e. "There is no signal present" or "There is no difference between the two populations". H1 is the opposite. So, "the p-value is the probability of obtaining test results at least as extreme as the result actually observed, under the assumption that the null hypothesis is correct".
 
-<div align="center">
+<div class="center-table" markdown>
+
 | ![confused.png](/assets/img/data-lies-post/confused.jpg)  | 
 | :--------:  | 
 | *Yeah, this was not very helpful, I know...*      | 
+
 </div>
 
 In a nutshell, P-value calculations assume that the null hypothesis is true and use that assumption to determine the likelihood of obtaining your observed sample data. P-values answer the question, "Are your sample data unusual if the null hypothesis is true?" At best, p-values indicate the degree of compatibility between a dataset and a particular hypothetical explanation (such as a null hypothesis), which is usually not the question we would like to answer. At the same time, we have adopted a particular threshold (the 0.05) which is somewhat arbitrary. Finally, the p-value does not indicate the size or importance of the observed effect. A small p-value can be observed for an effect that is not meaningful or important. In fact, the larger the sample size, the smaller the minimum effect needed to produce a statistically significant p-value!. 
@@ -191,7 +198,7 @@ So, let's play a game: In this section I have collected a few screenshots from t
 <details> <summary>Hint</summary> Bar enhancement, zoom-in to give the impression of larger difference between bar heights. </details>
 
 <p align="center">
-<img src="/assets/img/data-lies-post/9.png" alt= "Look at the y-axis" width="50%" height="50%">
+<img src="/assets/img/data-lies-post/9.jpeg" alt= "Look at the y-axis" width="50%" height="50%">
 </p>
 <details> <summary>Hint</summary> Bar enhancement again, can you spot it? Look at the y-axis </details>
 
