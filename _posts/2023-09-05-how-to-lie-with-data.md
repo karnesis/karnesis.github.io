@@ -177,7 +177,7 @@ So, let's play a game: In this section I have collected a few screenshots from t
     <figcaption>What is reported is show on the left, a real plot is shown on the right. Can you spot the difference?.</figcaption>
 </figure>
 
-#+HTML: <details> <summary> Click me</summary> What is reported is show on the left, a real plot is shown on the right. Can you spot the difference?. </details>
+<details> <summary>Solution</summary> What is reported is show on the left, a real plot is shown on the right. Can you spot the difference?. </details>
 
 <p align="center">
 <img src="/assets/img/data-lies-post/doge.png" alt= "Hmmm ... Taken from doge.gov.workforce." width="50%" height="50%">
