@@ -55,9 +55,11 @@ This is a very interesting case of lying with data, which, most of the times is 
 See the picture below (taken from the relevant [wikipedia article](https://en.wikipedia.org/wiki/Survivorship_bias)), which was used *a lot* during the pandemic. It represents the so-called _survival bias_, which is a special case of selection bias. The story goes as this: Imagine we are aviation engineers during the WWII and need to optimize armor reinforcement based on the sustained damage of planes that returned to base. The supposed damage is represented by the red dots in the figure. I would immediately (and naively) start patching up the damaged area, hoping that the plane would hold better during the next mission. Needless to say that I'd by fooling myself. I would be forgetting that I am  planning an upgrade strategy based on the planes that actually _made it back_, or in other words, on a biased sample of the overall population. 
 
 <center>
+
 | ![Survivorship-bias.svg](/assets/img/data-lies-post/Survivorship-bias.png)  | 
 | :--------:  | 
 | *We need more armor Jim! (figure taken from the wikipedia page)*      | 
+
 </center>
 
 A practice like this would inevitably lead to ineffective solutions (extra armor on those areas would pose minimal benefits, if any at all), and essentially no change on the survival rate of the planes. I should instead reinforce parts of the plane that were not damaged, because those should be the most critical for the keeping the plane in the sky (cockpit, engines, the middle of the wings, etc). 
@@ -65,17 +67,21 @@ A practice like this would inevitably lead to ineffective solutions (extra armor
 Another example of a biased data-set is when asking questions to non-representative parts of the population. For example, we shouldn't be asking about alcohol consumption during the local Beer Fest, or about peoples' favorite pie during an apple-pie contest. As you can imagine, designing a good field study is tricky and requires a lot of effort. That's why it's better to leave this part to the experts.
 
 <center>
+
 | ![burgerfest.png](/assets/img/data-lies-post/burgerfest.png)  | 
 | :--------:  | 
 | *So, are you vegan, or vegetarian?*      | 
+
 </center>
 
 On the other hand, a too small data-set is also problematic. See the graph below, it shows the two possible outcomes of a fair coin-toss experiment. If we stop the experiment too early, we will most probably get the wrong answer.
 
 <center>
+
 | ![small_dataset.png](/assets/img/data-lies-post/small_dataset.png)  | 
 | :--------:  | 
 | *We need more coins Jim!*      | 
+
 </center>
 
 --- 
@@ -89,9 +95,11 @@ Ah, one of my favorites... That is because it can be intentional or not, but it'
 Sometimes, when you need to prove that A causes B, and therefore we need to take some action related to A, you just need to show some correlation between them. Take for example the figure below:
 
 <center>
+
 | ![funny_correlations.png](/assets/img/data-lies-post/funny_correlations.png)  | 
 | :--------:  | 
 | *Is Nick Cage to blame here?*      | 
+
 </center>
 
 This is an example of spurious correlation, and I could not possibly imagine a casual model to connect the two measurements. 
