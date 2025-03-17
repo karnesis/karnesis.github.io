@@ -53,9 +53,7 @@ On the other hand it's always fun to spot direct lies by public figures, such as
 This is a very interesting case of lying with data, which, most of the times is done unintentionally. Not everyone has the background knowledge to interpret scientific graphs, let alone to correctly analyze and interpret a given set of data. One needs to be extra careful about the data available, and what they can really tell us about the question that we need to answer. Sometimes, their limitations are difficult to spot, and even experts are having trouble processing them. I mean, I am a trained scientist working with data all my life, but I wouldn't dare to try to interpret data from another scientific discipline (for example a data set of control groups for a heart condition drug). I would leave that to my fellow colleagues, who are experts in their respective field. Let us know look at some examples of data limitations:
 
 See the picture below (taken from the relevant [wikipedia article](https://en.wikipedia.org/wiki/Survivorship_bias)), which was used *a lot* during the pandemic. It represents the so-called _survival bias_, which is a special case of selection bias. The story goes as this: Imagine we are aviation engineers during the WWII and need to optimize armor reinforcement based on the sustained damage of planes that returned to base. The supposed damage is represented by the red dots in the figure. I would immediately (and naively) start patching up the damaged area, hoping that the plane would hold better during the next mission. Needless to say that I'd by fooling myself. I would be forgetting that I am  planning an upgrade strategy based on the planes that actually _made it back_, or in other words, on a biased sample of the overall population. 
-<p align="center">
-<img src="https://en.wikipedia.org/wiki/Survivorship_bias#/media/File:Survivorship-bias.svg" alt= "We need more armor Jim!" width="50%" height="50%">
-</p>
+![Survivorship-bias.svg](https://en.wikipedia.org/wiki/Survivorship_bias#/media/File:Survivorship-bias.svg "We need more armor Jim!")
 A practice like this would inevitably lead to ineffective solutions (extra armor on those areas would pose minimal benefits, if any at all), and essentially no change on the survival rate of the planes. I should instead reinforce parts of the plane that were not damaged, because those should be the most critical for the keeping the plane in the sky (cockpit, engines, the middle of the wings, etc). 
 
 Another example of a biased data-set is when asking questions to non-representative parts of the population. For example, we shouldn't be asking about alcohol consumption during the local Beer Fest, or about peoples' favorite pie during an apple-pie contest. As you can imagine, designing a good field study is tricky and requires a lot of effort. That's why it's better to leave this part to the experts.
@@ -80,7 +78,7 @@ Sometimes, when you need to prove that A causes B, and therefore we need to take
 <p align="center">
 <img src="/assets/img/data-lies-post/funny_correlations.png" alt= "Is Nick Cage to blame here?" width="50%" height="50%">
 </p>
-This is an example of spurious correlation, and I can not possibly imagine a casual model to connect the two measurements. 
+This is an example of spurious correlation, and I could not possibly imagine a casual model to connect the two measurements. 
 
 In general, statistical models are difficult to write down, and sometimes challenging to interpret. There is a whole scientific discipline that tries to infer causality from statistical measures, and it is one of the best approaches we have in order to help us find meaningful connections between As and Bs. Unfortunately, some people choose to bypass all the caveats and just use the high-level information that suits their narrative. You can amuse yourselves with more weird correlated data-sets [here](https://www.tylervigen.com/spurious-correlations).
 
@@ -128,7 +126,7 @@ Nowadays, data is a kind of modern currency. They are extremely valuable because
 
 I left the best category by far as a bonus point at the end. When data can not be forged or manipulated, people resort to simply presenting them in a way that pushes their narrative. This includes tricks like zoomed-in axes, using two axes to overlay data that shouldn't be shown together, "enhanced" bar and pie charts, or directly forged data-points on plots.  
 
-Then the question arises: Why do such an obvious manipulation? Eventually people get caught... Well, because *first impressions matter*! 
+Then the question arises: Why do such an obvious manipulation? Eventually people or companies that use such cheap tricks are caught and often publicly called out... Well, because *first impressions matter*, and consequences are often too mild to outweigh the benefits! 
 
 So, let's play a game: In this section I have collected a few screenshots from the news or social media. You can try yourselves to spot the visual trick used in each of those figures (hover over each image for the solution). Enjoy! 
 
