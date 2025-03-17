@@ -136,49 +136,55 @@ I left the best category by far as a bonus point at the end. When data can not b
 
 Then the question arises: Why do such an obvious manipulation? Eventually people or companies that use such cheap tricks are caught and often publicly called out... Well, because *first impressions matter*, and consequences are often too mild to outweigh the benefits! 
 
-So, let's play a game: In this section I have collected a few screenshots from the news or social media. You can try yourselves to spot the visual trick used in each of those figures (hover over each image for the solution). Enjoy! 
-
+So, let's play a game: In this section I have collected a few screenshots from the news or social media. You can try yourselves to spot the visual trick used in each of those figures (some hints are given). Enjoy! 
 
 <p align="center">
 <img src="/assets/img/data-lies-post/1.png" alt= "Plot enhancement" width="50%" height="50%">
 </p>
+<details> <summary>Hint</summary> Plot enhancement, because why not? </details>
 
 <p align="center">
 <img src="/assets/img/data-lies-post/2.jpeg" alt= "Double axes, plotting absolute numbers of different populations. Need normalization." width="50%" height="50%">
 </p>
+<details> <summary>Hint</summary> Double axes, plotting absolute numbers of different populations. Need normalization. </details>
 
 <p align="center">
 <img src="/assets/img/data-lies-post/3.png" alt= "Double axes, as above. After normalization the trends appear to be similar." width="50%" height="50%">
 </p>
+<details> <summary>Hint</summary> Double axes, as above. After normalization the trends appear to be similar. </details>
 
 <p align="center">
 <img src="/assets/img/data-lies-post/4.jpg" alt= "Time axis flip, in order to show decline of the development index." width="50%" height="50%">
 </p>
+<details> <summary>Hint</summary> Check the x-axis. Gives the impression of decline of the development index. </details>
 
 <p align="center">
 <img src="/assets/img/data-lies-post/5.jpg" alt= "Visual enhancement of bars here..." width="50%" height="50%">
 </p>
+<details> <summary>Hint</summary> Visual enhancement of bars here... Taken from Greek news channel. </details>
 
 <p align="center">
 <img src="/assets/img/data-lies-post/6.jpg" alt= "No comment..." width="50%" height="50%">
 </p>
+<details> <summary>Hint</summary> No comment... Taken from Greek news channel. </details>
 
 <p align="center">
 <img src="/assets/img/data-lies-post/7.jpeg" alt= "Bar enhancement, zoom-in to show bars of different height." width="50%" height="50%">
 </p>
+<details> <summary>Hint</summary> Bar enhancement, zoom-in to show bars of different height. </details>
 
 <p align="center">
 <img src="/assets/img/data-lies-post/1.png" alt= "Plot enhancement" width="50%" height="50%">
 </p>
+<details> <summary>Hint</summary> Plot enhancement. </details>
 
 <figure class="half" style="display:flex">
     <img style="width:400px" src="/assets/img/data-lies-post/8-1.jpg">
     <img style="width:600px" src="/assets/img/data-lies-post/8-2.jpeg">
-    <figcaption>What is reported is show on the left, a real plot is shown on the right. Can you spot the difference?.</figcaption>
 </figure>
-
-<details> <summary>Solution</summary> What is reported is show on the left, a real plot is shown on the right. Can you spot the difference?. </details>
+<details> <summary>Hint</summary> What is reported is show on the left, a real plot is shown on the right. Can you spot the difference?. </details>
 
 <p align="center">
 <img src="/assets/img/data-lies-post/doge.png" alt= "Hmmm ... Taken from doge.gov.workforce." width="50%" height="50%">
 </p>
+<details> <summary>Hint</summary> Don't even know anymore... Taken from doge.gov.workforce. </details>
