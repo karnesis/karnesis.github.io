@@ -55,7 +55,7 @@ This is a very interesting case of lying with data, which, most of the times is 
 See the picture below (taken from the relevant [wikipedia article](https://en.wikipedia.org/wiki/Survivorship_bias)), which was used *a lot* during the pandemic. It represents the so-called _survival bias_, which is a special case of selection bias. The story goes as this: Imagine we are aviation engineers during the WWII and need to optimize armor reinforcement based on the sustained damage of planes that returned to base. The supposed damage is represented by the red dots in the figure. I would immediately (and naively) start patching up the damaged area, hoping that the plane would hold better during the next mission. Needless to say that I'd by fooling myself. I would be forgetting that I am  planning an upgrade strategy based on the planes that actually _made it back_, or in other words, on a biased sample of the overall population. 
 
 <!-- ![Survivorship-bias.svg](/assets/img/data-lies-post/Survivorship-bias.svg.png "We need more armor Jim!") -->
-| ![Survivorship-bias.svg](assets/img/data-lies-post/Survivorship-bias.svg.png) | 
+| ![Survivorship-bias.svg](assets/img/data-lies-post/Survivorship-bias.png) | 
 |:--:| 
 | *We need more armor Jim!* |
 
