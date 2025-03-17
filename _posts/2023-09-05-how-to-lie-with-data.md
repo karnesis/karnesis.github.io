@@ -59,6 +59,10 @@ See the picture below (taken from the relevant [wikipedia article](https://en.wi
 :--:| 
 | *We need more armor Jim!* |
 
+| Header 1  | 
+| :--------:  | 
+| data      | 
+
 A practice like this would inevitably lead to ineffective solutions (extra armor on those areas would pose minimal benefits, if any at all), and essentially no change on the survival rate of the planes. I should instead reinforce parts of the plane that were not damaged, because those should be the most critical for the keeping the plane in the sky (cockpit, engines, the middle of the wings, etc). 
 
 Another example of a biased data-set is when asking questions to non-representative parts of the population. For example, we shouldn't be asking about alcohol consumption during the local Beer Fest, or about peoples' favorite pie during an apple-pie contest. As you can imagine, designing a good field study is tricky and requires a lot of effort. That's why it's better to leave this part to the experts.
