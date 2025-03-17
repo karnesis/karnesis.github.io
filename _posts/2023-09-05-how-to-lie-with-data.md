@@ -125,13 +125,10 @@ Fitting a straight line through a cloud of points is easy, but also [pointless](
 
 In statistics, we need to use metrics in order to decide between two competing hypotheses (science, duh!). In classical statistics, we have been using what is called the P-values. We begin by inventing two categories: The H0 is the so-called _null hypothesis_, which usually refers to the negative relationship of the particular effect, i.e. "There is no signal present" or "There is no difference between the two populations". H1 is the opposite. So, "the p-value is the probability of obtaining test results at least as extreme as the result actually observed, under the assumption that the null hypothesis is correct".
 
-<div class="center-table" markdown>
-
-| ![confused.png](/assets/img/data-lies-post/confused.jpg)  | 
-| :--------:  | 
-| *Yeah, this was not very helpful, I know...*      | 
-
-</div>
+<p align="center">
+<img src="/assets/img/data-lies-post/confused.jpg" alt="confused.png" width="80%" height="80%">
+</p>
+<p align=center> <i> Yeah, this was not very helpful, I know... </i> </p>
 
 In a nutshell, P-value calculations assume that the null hypothesis is true and use that assumption to determine the likelihood of obtaining your observed sample data. P-values answer the question, "Are your sample data unusual if the null hypothesis is true?" At best, p-values indicate the degree of compatibility between a dataset and a particular hypothetical explanation (such as a null hypothesis), which is usually not the question we would like to answer. At the same time, we have adopted a particular threshold (the 0.05) which is somewhat arbitrary. Finally, the p-value does not indicate the size or importance of the observed effect. A small p-value can be observed for an effect that is not meaningful or important. In fact, the larger the sample size, the smaller the minimum effect needed to produce a statistically significant p-value!. 
 
