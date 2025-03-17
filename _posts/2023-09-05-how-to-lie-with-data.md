@@ -83,7 +83,7 @@ Ah, one of my favorites... That is because it can be intentional or not, but it'
 
 ### 3.1 Correlation is not causation
 
-Sometimes, when you need to prove that A causes B, and therefore we need to take some action related to A, you just need to show some correlation between them. Take for example the figure below:
+Sometimes we need some proof that A causes B, in order to take some action related to A, or just make a compelling argument during a discussion. Then, we usually resort to presenting some kind of correlation between A and B. Take for example the figure below:
 
 <p align="center">
 <img src="/assets/img/data-lies-post/funny_correlations.png" alt="funny_correlations.png" width="100%" height="100%">
@@ -96,11 +96,11 @@ In general, statistical models are difficult to write down, and sometimes challe
 
 ### 3.2 Summary statistics
 
-Quite often, in order to get a point across we have to use high-order summary statistics. We say for example "the mean household holds X% of that", or "a typical local man always goes for the A option", or "more people prefer Y rather than Z". These statements should be fine in principle, but the danger is that the big picture can be blurred under single-number measures. Take for example the quantity of the mean household income, which was estimated at around 80 k$ for 2014 in the US. Just by this number alone, one may arrive to the conclusion that the "typical american household earns 80 k$ per year", which might not be completely true. To get the full picture we should study the picture below, which shows the actual distribution of income across the population. We notice that many more households are earning much less than 80 k$, which means that the "typical american family" is unfortunately a bit poorer than initially estimated. So, what is happening here?
+Quite often, in order to get our point across we use high-order summary statistics. We say for example "the mean household holds X% of that", or "a typical local man always goes for the A option", or "more people prefer Y rather than Z", or in worst case scenario "Those people from X country / region / ethnic background are responsible for our problems". These statements should be fine in principle (apart from the racist one), but the danger is that the big picture can be blurred under single-number measures. Take for example the quantity of the mean household income, which was estimated at around 80 k$ for 2014 in the US. Just by this number alone, one may arrive to the conclusion that the "typical american household earns 80 k$ per year", which might not be completely true. To get the full picture we should study the picture below, which shows the actual distribution of income across the population. We notice that a very large number of households earns much less than 80 k$, which means that the "typical american family" is unfortunately a bit poorer than initially estimated. So, what is happening here?
 <p align="center">
 <img src="https://www.census.gov/library/visualizations/2015/demo/distribution-of-household-income--2014/_jcr_content/root/responsivegrid/embeddableimage65.coreimg.png/1459361296671/hh-inc-dist.png" alt="Distribution of household income (2014)" width="80%" height="80%">
 </p>
-The mean can be biased due to highly-skewed data, and this is the root of our misunderstanding. The high and very high income families, even if fewer in actual numbers, have disproportionately larger earnings than low-income households, and are thus biasing the measure towards higher income values. The median, which is more robust against data outliers, is preferred in these situations. See figure below for a comparison between mean and median estiamtes. 
+The mean can be biased due to highly-skewed data, and this is the root of our misunderstanding. The high and very high income families, even if fewer in actual numbers, have disproportionately larger earnings than low-income households, and are thus biasing the measure towards higher income values. The median, which is more robust against data outliers, is preferred in these situations. See figure below for a comparison between mean and median estimates. 
 <p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/2022_Average_and_median_family_income%2C_by_age_-_US.svg/1600px-2022_Average_and_median_family_income%2C_by_age_-_US.svg.png" alt="Mean vs Median [from Wikipedia]" width="70%" height="70%">
 </p>
@@ -113,37 +113,40 @@ When cheating, we can be imaginative. Highly technical details are hard to spot,
 
 ### 3.3.1 How fitting?
 
-Sometimes, it's quite straightforward to get easy answers out of the data. Patterns might be easy to spot, and therefore the connection between measurements is evident. But quite often this is not the case. Our measurements might be noisy or problematic, our models might be useless, or our methods too naive. This may happen in science as well, where we are pressured to provide a final answer for a given study. Then we might rush our analysis and present something like this:
+Sometimes, it's quite straightforward to get easy answers out of the data. Patterns might be easy to spot, and therefore the connection between measurements is evident. But quite often this is not the case. Our measurements might be noisy or problematic, our models might be useless, or our analysis methods too naive. This may happen in science as well, where we are pressured to provide a single final answer for a given study or big question. Then, we might rush our analysis and present something like this:
 
 <p align="center">
 <img src="/assets/img/data-lies-post/bad-fit_1.jpeg" alt= "No comment..." width="50%" height="50%">
 </p>
 
-Fitting a straight line through a cloud of points is easy, but also [pointless](## "pun intended!"). Any numerical result out of this model would contribute very little to our understanding of the data. On the other hand, using a model with a million parameters is also not appropriate, because it would create [overfitting](https://en.wikipedia.org/wiki/Overfitting) issues (the opposite is [underfitting](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/)). We constantly encounter these kind of problems in Gravitational Wave Astronomy as well! Our Gravitational Wave detectors (see [here](https://www.ligo.caltech.edu/news/ligo20240405) for our current ground-based ones, of [here](https://www.esa.int/Science_Exploration/Space_Science/LISA) for our future space observatory) detect different types of waveforms, and we need to carefully model them in order to extract them safely from the data. More of this in a future post!
+Fitting a straight line through a cloud of points is easy, but also [pointless](## "Pun intended!"). Any numerical result out of this model would contribute very little to our understanding of the data. On the other hand, using a model with a million parameters is also not appropriate, because it would create [overfitting](https://en.wikipedia.org/wiki/Overfitting) issues (the opposite is [underfitting](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/)). 
+
+> [!NOTE]
+> We constantly encounter these kind of problems in Gravitational Wave Astronomy! Our Gravitational Wave detectors (see [here](https://www.ligo.caltech.edu/news/ligo20240405) for our current ground-based ones, of [here](https://www.esa.int/Science_Exploration/Space_Science/LISA) for our future space observatory) detect different types of waveforms, and we need to carefully model them in order to extract them safely from the data. More of this in a future post!
 
 ### 3.3.2 p-hacking, a special category of hacking
 
-In statistics, we need to use metrics in order to decide between two competing hypotheses (science, duh!). In classical statistics, we have been using what is called the P-values. We begin by inventing two categories: The H0 is the so-called _null hypothesis_, which usually refers to the negative relationship of the particular effect, i.e. "There is no signal present" or "There is no difference between the two populations". H1 is the opposite. So, "the p-value is the probability of obtaining test results at least as extreme as the result actually observed, under the assumption that the null hypothesis is correct".
+In statistics, we need to use metrics in order to decide between two competing hypotheses (yeah, science!). In classical statistics, we have been using what is called the P-values. We begin by inventing two categories: The $\mathrm{H}_0$ is the so-called _null hypothesis_, which usually refers to the negative relationship of the particular effect, i.e. "There is no signal present" or "There is no difference between the two populations". $\mathrm{H}_1$ is the opposite. So, "the p-value is the probability of obtaining test results at least as extreme as the result actually observed, under the assumption that the null hypothesis is correct".
 
 <p align="center">
 <img src="/assets/img/data-lies-post/confused.jpg" alt="confused.png" width="80%" height="80%">
 </p>
 <p align=center> <i> Yeah, this was not very helpful, I know... </i> </p>
 
-In a nutshell, P-value calculations assume that the null hypothesis is true and use that assumption to determine the likelihood of obtaining your observed sample data. P-values answer the question, "Are your sample data unusual if the null hypothesis is true?" At best, p-values indicate the degree of compatibility between a dataset and a particular hypothetical explanation (such as a null hypothesis), which is usually not the question we would like to answer. At the same time, we have adopted a particular threshold (the 0.05) which is somewhat arbitrary. Finally, the p-value does not indicate the size or importance of the observed effect. A small p-value can be observed for an effect that is not meaningful or important. In fact, the larger the sample size, the smaller the minimum effect needed to produce a statistically significant p-value!. 
+In a nutshell, P-value calculations assume that the null hypothesis is true and use that assumption to determine the likelihood of obtaining your observed sample data. P-values answer the question, "Are your sample data unusual if the null hypothesis is true?". At best, p-values indicate the degree of compatibility between a dataset and a particular hypothetical explanation (such as a null hypothesis), which is usually not the question we would like to answer. At the same time, we have adopted a particular threshold (the 0.05) which is somewhat arbitrary. Finally, the p-value does not indicate the size or importance of the observed effect. A small p-value can be observed for an effect that is not meaningful or important. In fact, the larger the sample size, the smaller the minimum effect needed to produce a statistically significant p-value!. 
 
-Still, the P-values can be used in order to answer our question, but more actions are required from us. The point I'd like to make here is that the _interpretation of statistical quantities is most of the times quite challenging_. A single reference to a high-order statistic such as the P-value does not convey the full picture. The takeaway message is that hacking can be hidden inside the technical details of the given study. This is sometimes very hard to spot even by experts, and that's why replication is a very basic ingredient of science!
+Still, the P-values are super useful if we want to answer our question, but more actions are required from ourselves. The point I'd like to make here is that the _interpretation of statistical quantities is most of the times quite challenging_. A single reference to a high-order statistic such as the P-value does not convey the full picture. And the final takeaway message is that hacking can be hidden inside the technical details of the given study. This is sometimes very hard to spot even by experts, and that's why replication is a very basic ingredient of science!
 
 --- 
 
 ## Summary
 
-Nowadays, data is a kind of modern currency. They are extremely valuable because by studying them we can tune our decision-making process. But they can also be used to mislead, or directly support flawed claims and malicious causes. Therefore, it is more necessary than ever to educate ourselves with the basics of statistical sciences in order to be able to assess the quality of the information out there. Unfortunately, statistics is not very easy, but that's life. In my humble opinion, I think that the experts need to be alert and react to blatant _lies with data_. At least when those are used for decisions that impact the everyday life of all of us. 
+Nowadays, data is a kind of modern currency. They are extremely valuable because by studying them we can tune our decision-making process. But they can also be used to mislead, or directly support flawed claims and malicious causes. Therefore, it is more necessary than ever to educate ourselves with the basics of statistical sciences in order to be able to assess the quality of the information out there. Unfortunately, statistics is not very easy, but that's life. In my humble opinion, I think that the experts need to be alert and react to blatant _lies that use faulty data or methods_. And this is crucial when those are used for decisions that impact the everyday life of all of us. 
 
 
 ## 4. [Bonus] It’s all about presentation! (★★★★★★★★★★★★★★★★★★★)
 
-I left the best category by far as a bonus point at the end. When data can not be forged or manipulated, people resort to simply presenting them in a way that pushes their narrative. This includes tricks like zoomed-in axes, using two axes to overlay data that shouldn't be shown together, "enhanced" bar and pie charts, or directly forged data-points on plots.  
+I left the best category by far as a bonus point at the end. When data can not be forged or manipulated, people resort to simply presenting them in a way that is convenient for their narrative. This includes tricks like zoomed-in axes, using two axes to overlay data that shouldn't be shown together, "enhanced" bar and pie charts, or directly forged data-points on plots.  
 
 Then the question arises: Why do such an obvious manipulation? Eventually people or companies that use such cheap tricks are caught and often publicly called out... Well, because *first impressions matter*, and consequences are often too mild to outweigh the benefits! 
 
@@ -157,7 +160,7 @@ So, let's play a game: In this section I have collected a few screenshots from t
 <p align="center">
 <img src="/assets/img/data-lies-post/2.jpeg" alt= "Double axes, plotting absolute numbers of different populations. Need normalization." width="50%" height="50%">
 </p>
-<details> <summary>Hint</summary> Double axes, plotting absolute numbers of different populations. Need normalization. </details>
+<details> <summary>Hint</summary> Double axes, plotting absolute numbers of different populations. Needs normalization before plotting. </details>
 
 <p align="center">
 <img src="/assets/img/data-lies-post/3.png" alt= "Double axes, as above. After normalization the trends appear to be similar." width="50%" height="50%">
@@ -167,7 +170,7 @@ So, let's play a game: In this section I have collected a few screenshots from t
 <p align="center">
 <img src="/assets/img/data-lies-post/4.jpg" alt= "Time axis flip, in order to show decline of the development index." width="50%" height="50%">
 </p>
-<details> <summary>Hint</summary> Check the x-axis. Gives the impression of decline of the development index. </details>
+<details> <summary>Hint</summary> Check the x-axis. Gives the impression of decline of the development index in time. </details>
 
 <p align="center">
 <img src="/assets/img/data-lies-post/5.jpg" alt= "Visual enhancement of bars here..." width="50%" height="50%">
@@ -187,15 +190,17 @@ So, let's play a game: In this section I have collected a few screenshots from t
 <p align="center">
 <img src="/assets/img/data-lies-post/9.jpeg" alt= "Look at the y-axis" width="50%" height="50%">
 </p>
-<details> <summary>Hint</summary> Bar enhancement again, can you spot it? Look at the y-axis </details>
+<details> <summary>Hint</summary> Bar enhancement again, can you spot it? Look at the y-axis! </details>
 
 <figure class="half" style="display:flex">
     <img style="width:400px" src="/assets/img/data-lies-post/8-1.jpg">
     <img style="width:600px" src="/assets/img/data-lies-post/8-2.jpeg">
 </figure>
-<details> <summary>Hint</summary> What is reported is show on the left, a real plot is shown on the right. Can you spot the difference?. </details>
+What is reported is shown on the left, a plot of the actual data is shown on the right.
+
+<details> <summary>Hint</summary> Can you spot the difference? :suspect: </details>
 
 <p align="center">
 <img src="/assets/img/data-lies-post/doge.png" alt= "Hmmm ... Taken from doge.gov.workforce." width="50%" height="50%">
 </p>
-<details> <summary>Hint</summary> Don't even know anymore... Taken from doge.gov.workforce. </details>
+<details> <summary>Hint</summary> Don't even know anymore... Taken from doge.gov.workforce. :finnadie: </details>
