@@ -121,7 +121,7 @@ Sometimes, it's quite straightforward to get easy answers out of the data. Patte
 
 Fitting a straight line through a cloud of points is easy, but also [pointless](## "Pun intended!"). Any numerical result out of this model would contribute very little to our understanding of the data. On the other hand, using a model with a million parameters is also not appropriate, because it would create [overfitting](https://en.wikipedia.org/wiki/Overfitting) issues (the opposite is [underfitting](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/)). 
 
-> [!NOTE]
+> :warning:
 > We constantly encounter these kind of problems in Gravitational Wave Astronomy! Our Gravitational Wave detectors (see [here](https://www.ligo.caltech.edu/news/ligo20240405) for our current ground-based ones, of [here](https://www.esa.int/Science_Exploration/Space_Science/LISA) for our future space observatory) detect different types of waveforms, and we need to carefully model them in order to extract them safely from the data. More of this in a future post!
 
 ### 3.3.2 p-hacking, a special category of hacking
