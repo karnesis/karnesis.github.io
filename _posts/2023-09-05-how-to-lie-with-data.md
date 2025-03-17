@@ -59,7 +59,7 @@ See the picture below (taken from the relevant [wikipedia article](https://en.wi
 :--:| 
 | *We need more armor Jim!* | -->
 
-| ![Survivorship-bias.svg](/assets/img/data-lies-post/Survivorship-bias.png)  | 
+| <img src="/assets/img/data-lies-post/Survivorship-bias.png" width=50% height=50%> | 
 | :--------:  | 
 | *We need more armor Jim!*      | 
 
