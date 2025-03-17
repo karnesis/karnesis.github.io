@@ -86,7 +86,7 @@ On the other hand, a too small data-set is also problematic. See the graph below
 
 ## 3. Abusing statistics (★★★★☆)
 
-Ah, one of my favorites... That is because it can be intentional or not, but it's always more glaring when it's the former! For the first case, it is somehow forgivable, because not everyone is really trained to interpret statistical measures of a given quantity. This is fine, we people make mistakes <div title="Yes, it is a constant struggle">_all_ the time</div>... But it is just our responsibility to educate ourselves and others and be better! 
+Ah, one of my favorites... That is because it can be intentional or not, but it's always more glaring when it's the former! For the first case, it is somehow forgivable, because not everyone is really trained to interpret statistical measures of a given quantity. This is fine, we people make mistakes [_all_ the time](## "Yes, it is a constant struggle")... But it is just our responsibility to educate ourselves and others and be better! 
 
 ### 3.1 Correlation is not causation
 
