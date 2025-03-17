@@ -23,7 +23,7 @@ But _why lie with data?_ You might ask. Well, five basic reasons:
 2. *Many people do it!* Just take a look at the news, or social media, private discussions, politicians, family dinners, you name it...
 3. *First impressions matter!* They [really do](https://news.illinois.edu/view/6367/557440)! Rebuttals that come later have very little effect in correcting the sentiment of a strong first impression. Lying works!
 4. *It gets your point across with ease!* Nothing better than a few numbers to back up your claims, wether it's about politics, sports, or even unfortunately science (where it just gets your paper published quickly and painlessly). But on a more _serious_ note about science:
-5. In the grant scheme of things, where productivity (quantity) is rewarded more than actual understanding (quality), people are forced to resort to such practices. When survival is at stake, proper procedures, deep studies, reproducibility, ethics, [...], are the first to be thrown out of the window. 
+5. In the grant scheme of things, where productivity (quantity) is rewarded more than actual understanding each other (quality), people are forced to resort to such practices. When survival is at stake, proper procedures, deep studies, reproducibility, ethics, [...], are the first to be thrown out of the window. 
 
 As already mentioned, lying with data is easy, but we need to learn how to do it properly. For that reason, I have gathered the different types of lying strategies into a few categories. For each category we can also assign a "malevolence score", which is indicates the level of malevolence of the given practicer. If you hover your mouse pointer, you'll see the malevolence score:
 
@@ -55,7 +55,7 @@ This is a very interesting case of lying with data, which, most of the times is 
 See the picture below (taken from the relevant [wikipedia article](https://en.wikipedia.org/wiki/Survivorship_bias)), which was used *a lot* during the pandemic. It represents the so-called _survival bias_, which is a special case of selection bias. The story goes as this: Imagine we are aviation engineers during the WWII and need to optimize armor reinforcement based on the sustained damage of planes that returned to base. The supposed damage is represented by the red dots in the figure. I would immediately (and naively) start patching up the damaged area, hoping that the plane would hold better during the next mission. Needless to say that I'd by fooling myself. I would be forgetting that I am  planning an upgrade strategy based on the planes that actually _made it back_, or in other words, on a biased sample of the overall population. 
 
 <!-- ![Survivorship-bias.svg](/assets/img/data-lies-post/Survivorship-bias.svg.png "We need more armor Jim!") -->
-| ![Survivorship-bias.svg](assets/img/data-lies-post/Survivorship-bias.png) | 
+| ![Survivorship-bias.svg](/assets/img/data-lies-post/Survivorship-bias.png) | 
 |:--:| 
 | *We need more armor Jim!* |
 
