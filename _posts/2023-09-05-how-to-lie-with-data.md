@@ -129,7 +129,7 @@ Fitting a straight line through a cloud of points is easy, but also [pointless](
 In statistics, we need to use metrics in order to decide between two competing hypotheses (yeah, science!). In classical statistics, we have been using what is called the P-values. We begin by inventing two categories: The $\mathrm{H}_0$ is the so-called _null hypothesis_, which usually refers to the negative relationship of the particular effect, i.e. "There is no signal present" or "There is no difference between the two populations". $\mathrm{H}_1$ is the opposite. So, "the p-value is the probability of obtaining test results at least as extreme as the result actually observed, under the assumption that the null hypothesis is correct".
 
 <p align="center">
-<img src="/assets/img/data-lies-post/confused.jpg" alt="confused.png" width="80%" height="80%">
+<img src="/assets/img/data-lies-post/confused.jpg" alt="confused.png" width="60%" height="60%">
 </p>
 <p align=center> <i> Yeah, this was not very helpful, I know... </i> </p>
 
@@ -198,9 +198,9 @@ So, let's play a game: In this section I have collected a few screenshots from t
 </figure>
 What is reported is shown on the left, a plot of the actual data is shown on the right.
 
-<details> <summary>Hint</summary> Can you spot the difference? :suspect: </details>
+<details> <summary>Hint</summary> Can you spot the difference? </details>
 
 <p align="center">
 <img src="/assets/img/data-lies-post/doge.png" alt= "Hmmm ... Taken from doge.gov.workforce." width="50%" height="50%">
 </p>
-<details> <summary>Hint</summary> Don't even know anymore... Taken from doge.gov.workforce. :finnadie: </details>
+<details> <summary>Hint</summary> Don't even know anymore... Taken from doge.gov.workforce. </details>
