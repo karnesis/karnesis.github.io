@@ -9,7 +9,7 @@ tags: [data, statistics, lie, data science]
 comments: true
 ---
 
-We are living in the era of information, and it's truly exciting. We can reach any kind of knowledge within milliseconds, and just from the palm of our hands. Today it is very hard to even remember how our everyday life was without this immediate access to information. I mean, remember making bets with your friends? In order to find out who's right and who's wrong we had to ask an "expert" of [dubious credentials](## "Probably that weird uncle that happened to be in the same room"), or worse, we had to physically go to the library. Sometimes I would spend too much time searching for the correct answer, being filled with anticipation for the time when I'd finally brag about how right I am (<div title="Screw you Bill, your intuition was always wrong, you jerk!">and how wrong was Bill</div>). Now it takes seconds!
+We are living in the era of information, and it's truly exciting. We can reach any kind of knowledge within milliseconds, and just from the palm of our hands. Today it is very hard to even remember how our everyday life was without this immediate access to information. I mean, remember making bets with your friends? In order to find out who's right and who's wrong we had to ask an "expert" of [dubious credentials](## "Probably that weird uncle that happened to be in the same room"), or worse, we had to physically go to the library. Sometimes I would spend too much time searching for the correct answer, being filled with anticipation for the time when I'd finally brag about how right I am [and how wrong was Bill](## "Screw you Bill, your intuition was always wrong, you jerk!"). Now it takes seconds!
 
 This instantaneous access to data makes our lives much easier; we can check immediately when a piece of information is true or false or verify one's claims by directly accessing and assessing the data. In principle, that would be a step towards a more civilised society, where any given discussion only happens on the solid grounds of measurements and crucial information; a society where the discussion would be focusing on possible solutions to our problems, rather than wasting time on ineffectual and counterproductive disagreements.
 
@@ -25,12 +25,12 @@ But _why lie with data?_ You might ask. Well, five basic reasons:
 4. *It gets your point across with ease!* Nothing better than a few numbers to back up your claims, wether it's about politics, sports, or even unfortunately science (where it just gets your paper published quickly and painlessly). But on a more _serious_ note about science:
 5. In the grant scheme of things, where productivity (quantity) is rewarded more than actual understanding (quality), people are forced to resort to such practices. When survival is at stake, proper procedures, deep studies, reproducibility, ethics, [...], are the first to be thrown out of the window. 
 
-As already mentioned, lying with data is easy, but we need to learn how to do it properly. For that reason, I have gathered the different types of lying strategies into a few categories. For each category we can also assign a "malevolence score", which is indicates the level of malevolence of the given practicer. Here they are:
+As already mentioned, lying with data is easy, but we need to learn how to do it properly. For that reason, I have gathered the different types of lying strategies into a few categories. For each category we can also assign a "malevolence score", which is indicates the level of malevolence of the given practicer. If you hover your mouse pointer, you'll see the malevolence score:
 
-1. <div title="★★★★★">Direct Data manipulation</div>
-2. <div title="★★★☆☆">Analyzing and/or presenting flawed or biased data</div> 
-3. <div title="★★★★☆">Abusing statistics</div>
-4. [Bonus point] <div title="★★★★★★★★★★★★★★★★★★★">It’s all about presentation</div>  
+1. [Direct Data manipulation](## "★★★★★")
+2. [Analyzing and/or presenting flawed or biased data](## "★★★☆☆")
+3. [Abusing statistics](## "★★★★☆")
+4. [Bonus point] [It’s all about presentation](## "★★★★★★★★★★★★★★★★★★★")
 
 So, let us begin with the first category, which is no other than:
 
