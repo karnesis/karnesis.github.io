@@ -55,7 +55,7 @@ This is a very interesting case of lying with data, which, most of the times is 
 See the picture below (taken from the relevant [wikipedia article](https://en.wikipedia.org/wiki/Survivorship_bias)), which was used *a lot* during the pandemic. It represents the so-called _survival bias_, which is a special case of selection bias. The story goes as this: Imagine we are aviation engineers during the WWII and need to optimize armor reinforcement based on the sustained damage of planes that returned to base. The supposed damage is represented by the red dots in the figure. I would immediately (and naively) start patching up the damaged area, hoping that the plane would hold better during the next mission. Needless to say that I'd by fooling myself. I would be forgetting that I am  planning an upgrade strategy based on the planes that actually _made it back_, or in other words, on a biased sample of the overall population. 
 
 <p align="center">
-<img src="/assets/img/data-lies-post/Survivorship-bias.png" alt="Survivorship-bias.png" width="100%" height="100%">
+<img src="/assets/img/data-lies-post/Survivorship-bias.png" alt="Survivorship-bias.png" width="50%" height="50%">
 </p>
 <p align=center> <i> We need more armor Jim! (figure taken from the wikipedia page) </i> </p>
 
@@ -64,14 +64,14 @@ A practice like this would inevitably lead to ineffective solutions (extra armor
 Another example of a biased data-set is when asking questions to non-representative parts of the population. For example, we shouldn't be asking about alcohol consumption during the local Beer Fest, or about peoples' favorite pie during an apple-pie contest. As you can imagine, designing a good field study is tricky and requires a lot of effort. That's why it's better to leave this part to the experts.
 
 <p align="center">
-<img src="/assets/img/data-lies-post/burgerfest.png" alt="burgerfest.png" width="100%" height="100%">
+<img src="/assets/img/data-lies-post/burgerfest.png" alt="burgerfest.png" width="50%" height="50%">
 </p>
 <p align=center> <i> So, are you vegan, or vegetarian? </i> </p>
 
 On the other hand, a too small data-set is also problematic. See the graph below, it shows the two possible outcomes of a fair coin-toss experiment. If we stop the experiment too early, we will most probably get the wrong answer.
 
 <p align="center">
-<img src="/assets/img/data-lies-post/small_dataset.png" alt="small_dataset.png" width="100%" height="100%">
+<img src="/assets/img/data-lies-post/small_dataset.png" alt="small_dataset.png" width="50%" height="50%">
 </p>
 <p align=center> <i> We need more coins Jim! </i> </p>
 
@@ -116,7 +116,7 @@ When cheating, we can be imaginative. Highly technical details are hard to spot,
 Sometimes, it's quite straightforward to get easy answers out of the data. Patterns might be easy to spot, and therefore the connection between measurements is evident. But quite often this is not the case. Our measurements might be noisy or problematic, our models might be useless, or our methods too naive. This may happen in science as well, where we are pressured to provide a final answer for a given study. Then we might rush our analysis and present something like this:
 
 <p align="center">
-<img src="/assets/img/data-lies-post/bad-fit_1.jpg" alt= "No comment..." width="50%" height="50%">
+<img src="/assets/img/data-lies-post/bad-fit_1.jpeg" alt= "No comment..." width="50%" height="50%">
 </p>
 
 Fitting a straight line through a cloud of points is easy, but also [pointless](## "pun intended!"). Any numerical result out of this model would contribute very little to our understanding of the data. On the other hand, using a model with a million parameters is also not appropriate, because it would create [overfitting](https://en.wikipedia.org/wiki/Overfitting) issues (the opposite is [underfitting](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/)). We constantly encounter these kind of problems in Gravitational Wave Astronomy as well! Our Gravitational Wave detectors (see [here](https://www.ligo.caltech.edu/news/ligo20240405) for our current ground-based ones, of [here](https://www.esa.int/Science_Exploration/Space_Science/LISA) for our future space observatory) detect different types of waveforms, and we need to carefully model them in order to extract them safely from the data. More of this in a future post!
