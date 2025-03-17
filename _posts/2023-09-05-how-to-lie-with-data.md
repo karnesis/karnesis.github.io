@@ -56,7 +56,7 @@ See the picture below (taken from the relevant [wikipedia article](https://en.wi
 
 <!-- ![Survivorship-bias.svg](/assets/img/data-lies-post/Survivorship-bias.svg.png "We need more armor Jim!") -->
 | ![Survivorship-bias.svg](/assets/img/data-lies-post/Survivorship-bias.png) | 
-|:--:| 
+:--:| 
 | *We need more armor Jim!* |
 
 A practice like this would inevitably lead to ineffective solutions (extra armor on those areas would pose minimal benefits, if any at all), and essentially no change on the survival rate of the planes. I should instead reinforce parts of the plane that were not damaged, because those should be the most critical for the keeping the plane in the sky (cockpit, engines, the middle of the wings, etc). 
