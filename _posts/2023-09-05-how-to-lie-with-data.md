@@ -68,10 +68,11 @@ Another example of a biased data-set is when asking questions to non-representat
 </p>
 <p align=center> <i> So, are you vegan, or vegetarian? </i> </p>
 
-On the other hand, a too small data-set is also problematic. See the graph below, it shows the two possible outcomes of a fair coin-toss experiment. If we stop the experiment too early, we will most probably get the wrong answer.
+On the other hand, a too small data-set is also problematic. See the graphs below, they show the two possible outcomes of a fair coin-toss experiment. If we stop the experiment too early, we will most probably get the wrong answer (left). If we continue gathering data, then we will probably arrive to a better result (right).
 
 <p align="center">
-<img src="/assets/img/data-lies-post/small_dataset.png" alt="small_dataset.png" width="50%" height="50%">
+<img src="/assets/img/data-lies-post/coin_small-data.png" alt="coin_small-data.png" width="50%" height="50%">
+<img src="/assets/img/data-lies-post/coin_full.png" alt="coin_full.png" width="50%" height="50%">
 </p>
 <p align=center> <i> We need more coins Jim! </i> </p>
 
@@ -121,7 +122,6 @@ Sometimes, it's quite straightforward to get easy answers out of the data. Patte
 
 Fitting a straight line through a cloud of points is easy, but also [pointless](## "Pun intended!"). Any numerical result out of this model would contribute very little to our understanding of the data. On the other hand, using a model with a million parameters is also not appropriate, because it would create [overfitting](https://en.wikipedia.org/wiki/Overfitting) issues (the opposite is [underfitting](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/)). 
 
-> :warning:
 > We constantly encounter these kind of problems in Gravitational Wave Astronomy! Our Gravitational Wave detectors (see [here](https://www.ligo.caltech.edu/news/ligo20240405) for our current ground-based ones, of [here](https://www.esa.int/Science_Exploration/Space_Science/LISA) for our future space observatory) detect different types of waveforms, and we need to carefully model them in order to extract them safely from the data. More of this in a future post!
 
 ### 3.3.2 p-hacking, a special category of hacking
