@@ -64,7 +64,7 @@ A practice like this would inevitably lead to ineffective solutions (extra armou
 Another example of a biased data-set is when asking questions to non-representative parts of the population. For example, we shouldn't be asking about alcohol consumption during the local Beer Fest, or about people's favorite pie during an apple-pie contest. As you can imagine, designing a good field study is tricky and requires a lot of effort. That's why it's better to leave this part to the experts.
 
 <p align="center">
-<img src="/assets/img/data-lies-post/burgerfest.png" alt="burgerfest.png" width="50%" height="50%">
+<img src="/assets/img/data-lies-post/burgerfest.png" alt="burgerfest.png" width="50%" height="50%" style="margin-right: 10px;">
 </p>
 <p align=center> <i> So, are you vegan, or vegetarian? </i> </p>
 
@@ -91,12 +91,12 @@ Sometimes we need some proof that A causes B, in order to take some action relat
 </p>
 <p align=center> <i> Is Nick Cage to blame here? </i> </p>
 
-This is an example of spurious correlation, and I could not possibly imagine a causal model to connect the two measurements. Although, to be fair, it's Nick Cage we are talking about... 
+This is an example of spurious correlation, and I could not possibly imagine a causal model to connect the two measurements. 
 
 <p align="center">
 <img src="/assets/img/data-lies-post/cage.jpg" alt="cage.jpg" width="40%" height="40%">
 </p>
-
+<p align=center> <i> Although, to be fair, it's Nick Cage we are talking about...  </i> </p>
 
 In general, statistical models are difficult to write down, and sometimes challenging to interpret. There is a whole scientific discipline that tries to infer causality from statistical measures, and it is one of the best approaches we have in order to help us find meaningful connections between As and Bs. Unfortunately, some people choose to bypass all the caveats and just use the high-level information that suits their narrative. You can amuse yourselves with more weird correlated data-sets [here](https://www.tylervigen.com/spurious-correlations).
 
@@ -125,7 +125,7 @@ Sometimes, it's quite straightforward to get easy answers out of the data. Patte
 <img src="/assets/img/data-lies-post/bad-fit_1.jpeg" alt= "No comment..." width="50%" height="50%">
 </p>
 
-Fitting a straight line through a cloud of points is easy, but also [pointless](## "Pun intended!"). Any numerical result out of this model would contribute very little to our understanding of the data. On the other hand, using a model with a million parameters is also not appropriate, because it would create [overfitting](https://en.wikipedia.org/wiki/Overfitting) issues (the opposite is [underfitting](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/)). 
+Fitting a straight line through a cloud of points is easy, but also [pointless](## "Pun intended!"). Any numerical result out of this model would contribute very little to our understanding of the data. On the other hand, using a model with a million parameters is also not appropriate, because it would create [overfitting](https://en.wikipedia.org/wiki/Overfitting) issues (the opposite being [underfitting](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/)). 
 
 > We constantly encounter these kind of problems in Gravitational Wave Astronomy! Our Gravitational Wave detectors (see [here](https://www.ligo.caltech.edu/news/ligo20240405) for our current ground-based ones, of [here](https://www.esa.int/Science_Exploration/Space_Science/LISA) for our future space observatory) detect different types of waveforms, and we need to carefully model them in order to extract them safely from the data. More of this in a future post!
 
@@ -198,7 +198,7 @@ So, let's play a game: In this section I have collected a few screenshots from t
 <details> <summary>Hint</summary> Bar enhancement again, can you spot it? Look at the y-axis! </details>
 
 <figure class="half" style="display:flex">
-    <img style="width:400px" src="/assets/img/data-lies-post/8-1.jpg">
+    <img style="width:400px" src="/assets/img/data-lies-post/8-1.jpg" style="margin-right: 10px;">
     <img style="width:600px" src="/assets/img/data-lies-post/8-2.jpeg">
 </figure>
 What is reported is shown on the left, a plot of the actual data is shown on the right.
