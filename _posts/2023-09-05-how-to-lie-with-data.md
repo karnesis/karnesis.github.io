@@ -91,7 +91,12 @@ Sometimes we need some proof that A causes B, in order to take some action relat
 </p>
 <p align=center> <i> Is Nick Cage to blame here? </i> </p>
 
-This is an example of spurious correlation, and I could not possibly imagine a causal model to connect the two measurements. 
+This is an example of spurious correlation, and I could not possibly imagine a causal model to connect the two measurements. Although, to be fair, it's Nick Cage we are talking about... 
+
+<p align="center">
+<img src="/assets/img/data-lies-post/cage.jpg" alt="cage.jpg" width="40%" height="40%">
+</p>
+
 
 In general, statistical models are difficult to write down, and sometimes challenging to interpret. There is a whole scientific discipline that tries to infer causality from statistical measures, and it is one of the best approaches we have in order to help us find meaningful connections between As and Bs. Unfortunately, some people choose to bypass all the caveats and just use the high-level information that suits their narrative. You can amuse yourselves with more weird correlated data-sets [here](https://www.tylervigen.com/spurious-correlations).
 
