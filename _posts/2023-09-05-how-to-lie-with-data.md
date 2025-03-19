@@ -44,7 +44,7 @@ Naturally, direct lying is very effective in certain areas outside academia as w
 
 There have been countless examples of this practice in academia, and I was planning to summarize at least some of them. But then I got a bit depressed by some of the actual stories behind the news, so I'll just leave the [link to Wikipedia article](https://en.wikipedia.org/wiki/List_of_scientific_misconduct_incidents) instead. 
 
-On the other hand it's always fun to spot direct lies by public figures, such as the claim that schools can perform gender-affirming surgeries on [pupils](https://edition.cnn.com/2024/09/04/politics/donald-trump-fact-check-children-gender-affirming-surgery/index.html), or the outrageous [allegation that immigrants feast on the cute pets of innocent people](https://www.youtube.com/watch?v=5llMaZ80ErY). But on a more serious note, next time you hear a politician addressing the public, ask yourself why they chose to present this particular number or statistic or measure, and where it came from. At best case scenario the quoted figure is true and computed by some expert. Even so, usually a single high-level statistical measure cannot encapsulate the full picture of the situation, which is something that we will investigate below. 
+On the other hand it's always fun to spot direct lies by public figures, such as the claim that [schools can perform gender-affirming surgeries on pupils](https://edition.cnn.com/2024/09/04/politics/donald-trump-fact-check-children-gender-affirming-surgery/index.html), or the outrageous [allegation that immigrants feast on the cute pets of innocent people](https://www.youtube.com/watch?v=5llMaZ80ErY). But on a more serious note, next time you hear a politician addressing the public, ask yourself why they chose to present this particular number or statistic or measure, and where it came from. At best case scenario the quoted figure is true and computed by some expert. Even so, usually a single high-level statistical measure cannot encapsulate the full picture of the situation, which is something that we will investigate below. 
 
 --- 
 
@@ -208,4 +208,4 @@ What is reported is shown on the left, a plot of the actual data is shown on the
 <p align="center">
 <img src="/assets/img/data-lies-post/doge.png" alt= "Hmmm ... Taken from doge.gov.workforce." width="50%" height="50%">
 </p>
-<details> <summary>Hint</summary> Don't even know anymore... Taken from doge.gov.workforce. </details>
+<details> <summary>Hint</summary> Don't even know anymore... Taken from <a href="https://www.doge.gov/workforce">doge.gov.workforce</a>. </details>
