@@ -117,7 +117,7 @@ The mean can be biased due to highly skewed data, and this is the root of our mi
 
 In summary, we should always be careful with high-order statistics. When in doubt, we need to go back and look at the (distribution of the) data! Next time you hear someone claim that "I think that the average X person is much better in math than the average Y person", try to think about the possibility that this claim might have been based on a biased sample. 
 
-> As a side note: Statistics is a scientific discipline that helps us make sense of systems where its components interact with each other in complex ways. In the above example, even if the statement of "X people are better at math than Y people" is true, we would want to know _why_ X are so good at math. We now know that there are several factors that might contribute, such as family income, place or residence, or the overall system of public education.
+> As a side note: Statistics is a scientific discipline that helps us make sense of systems where its components interact with each other in complex ways. In the above example, even if the statement of "X people are better at math than Y people" is true, we would want to know *why* X are so good at math. We now know that there are several factors that might contribute, such as family income, place or residence, or the overall public education system.
 
 ### 3.3 Hacking 
 
@@ -131,7 +131,7 @@ Sometimes, it's quite straightforward to get easy answers out of the data. Patte
 <img src="/assets/img/data-lies-post/bad-fit_1.jpeg" alt= "No comment..." width="50%" height="50%">
 </p>
 
-Fitting a straight line through a cloud of points is easy, but also [pointless](## "Pun intended!"). Any numerical result out of this model would contribute very little to our understanding of the data. On the other hand, using a model with a million parameters is also not appropriate, because it would create [overfitting](https://en.wikipedia.org/wiki/Overfitting) issues (the opposite being [underfitting](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/)). 
+Fitting a straight line through a cloud of points is easy, but also [pointless](## "Pun intended!"). Any numerical result out of this model would contribute very little to our understanding of the data. On the other hand, using a model with a million parameters is also not appropriate, because it would create [overfitting](https://en.wikipedia.org/wiki/Overfitting) issues. This means that we have defined a model that fits almost exactly the particular data set, but would most probably fail to generalize to a different data sets (the opposite of overfitting is [underfitting](https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/)). 
 
 > We constantly encounter these kind of problems in Gravitational Wave Astronomy! Our Gravitational Wave detectors (see [here](https://www.ligo.caltech.edu/news/ligo20240405) for our current ground-based ones, of [here](https://www.esa.int/Science_Exploration/Space_Science/LISA) for our future space observatory) detect different types of waveforms, and we need to carefully model them in order to extract them safely from the data. More of this in a future post!
 
