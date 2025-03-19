@@ -76,6 +76,8 @@ On the other hand, a too small data-set is also problematic. See the graphs belo
 </p>
 <p align=center> <i> We need more coins Jim! </i> </p>
 
+Considering the above, we can say that an easy way to lie is to just _carefully gather our data sample_ (wink), and then produce a summary statistic that suits best our narrative. Or, from the opposite point of view and on a more serious note: Before accepting a given result out of a study, we need make sure that that data used are not problematic. This is usually very challenging to do, because we may lack the expertise, the tools, or even access to the data. Thus, we need to rely experts and their supporting institutions. There are countless examples of academics, researchers, journalists, and their hosting laboratories, associations, universities, etc, that do excellent work with data gathering. Sure, sometimes mistakes have been made, but I'd like to think that it's all part of the learning process. 
+
 --- 
 
 ## 3. Abusing statistics (★★★★☆)
@@ -98,7 +100,9 @@ This is an example of spurious correlation, and I could not possibly imagine a c
 </p>
 <p align=center> <i> Although, to be fair, it's Nick Cage we are talking about...  </i> </p>
 
-In general, statistical models are difficult to write down, and sometimes challenging to interpret. There is a whole scientific discipline that tries to infer causality from statistical measures, and it is one of the best approaches we have in order to help us find meaningful connections between As and Bs. Unfortunately, some people choose to bypass all the caveats and just use the high-level information that suits their narrative. You can amuse yourselves with more weird correlated data-sets [here](https://www.tylervigen.com/spurious-correlations).
+In general, statistical models are difficult to write down, and sometimes challenging to interpret. There is a whole scientific discipline that tries to infer causality from statistical measures, and it is one of the best approaches we have in order to help us find meaningful connections between As and Bs. Unfortunately, some people choose to bypass all the caveats and just use the high-level information that suits their narrative. 
+
+> You can amuse yourselves with more weird correlated data-sets [here](https://www.tylervigen.com/spurious-correlations).
 
 ### 3.2 Summary statistics
 
@@ -111,7 +115,9 @@ The mean can be biased due to highly skewed data, and this is the root of our mi
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/2022_Average_and_median_family_income%2C_by_age_-_US.svg/1600px-2022_Average_and_median_family_income%2C_by_age_-_US.svg.png" alt="Mean vs Median [from Wikipedia]" width="70%" height="70%">
 </p>
 
-In summary, we should always be careful with high-order statistics. When in doubt, we need to go back and look at the (distribution of the) data!  
+In summary, we should always be careful with high-order statistics. When in doubt, we need to go back and look at the (distribution of the) data! Next time you hear someone claim that "I think that the average X person is much better in math than the average Y person", try to think about the possibility that this claim might have been based on a biased sample. 
+
+> As a side note: Statistics is a scientific discipline that helps us make sense of systems where its components interact with each other in complex ways. In the above example, even if the statement of "X people are better at math than Y people" is true, we would want to know _why_ X are so good at math. We now know that there are several factors that might contribute, such as family income, place or residence, or the overall system of public education.
 
 ### 3.3 Hacking 
 
@@ -129,6 +135,7 @@ Fitting a straight line through a cloud of points is easy, but also [pointless](
 
 > We constantly encounter these kind of problems in Gravitational Wave Astronomy! Our Gravitational Wave detectors (see [here](https://www.ligo.caltech.edu/news/ligo20240405) for our current ground-based ones, of [here](https://www.esa.int/Science_Exploration/Space_Science/LISA) for our future space observatory) detect different types of waveforms, and we need to carefully model them in order to extract them safely from the data. More of this in a future post!
 
+
 ### 3.3.2 p-hacking, a special category of hacking
 
 In statistics, we need to use metrics in order to decide between two competing hypotheses (yeah, science!). In classical statistics, we have been using what is called the p-values. We begin by inventing two categories: The *H0* is the so-called _null hypothesis_, which usually refers to the negative relationship of the particular effect, i.e. "There is no signal present" or "There is no difference between the two populations". *H1* is the opposite. So, "the p-value is the probability of obtaining test results at least as extreme as the result actually observed, under the assumption that the null hypothesis is correct".
@@ -140,7 +147,9 @@ In statistics, we need to use metrics in order to decide between two competing h
 
 In a nutshell, p-value calculations assume that the null hypothesis is true and use that assumption to determine the likelihood of obtaining your observed sample data. p-values answer the question, "Are your sample data unusual if the null hypothesis is true?". At best, p-values indicate the degree of compatibility between a dataset and a particular hypothetical explanation (such as a null hypothesis), which is usually not the question we would like to answer. At the same time, we have adopted a particular threshold (the infamous 0.05) which is somewhat arbitrary. Finally, the p-value does not indicate the size or importance of the observed effect. A small p-value can be observed for an effect that is not meaningful or important. In fact, the larger the sample size, the smaller the minimum effect needed to produce a statistically significant p-value. 
 
-All the above may sound as me bashing on p-values, but the truth is that they are super useful and helpful towards understanding our given problems. The point is that the _interpretation of statistical quantities is most of the time quite challenging_. A single reference to a high-order statistic such as the p-value does not convey the full picture. And the final takeaway message is that hacking can be hidden inside the technical details of the given study. This is sometimes very hard to spot even by experts, and that's why replication is a very basic ingredient of science!
+All the above may sound as me bashing on p-values, but the truth is that they are super useful and helpful towards understanding our given problems. The point is that the _interpretation of statistical quantities is most of the time quite challenging_. A single reference to a high-order statistic such as the p-value does not convey the full picture. 
+
+The final takeaway message is that hacking can be hidden inside the technical details of the given study. This is sometimes very hard to spot even by experts, and that's why replication is a very basic ingredient of science!
 
 --- 
 
@@ -153,7 +162,7 @@ Nowadays, data is a kind of modern currency. They are extremely valuable because
 
 I left the best category by far as a bonus point at the end. When data cannot be forged or manipulated, people resort to simply presenting them in a way that is convenient for their narrative. This includes tricks like zoomed-in axes, using two axes to overlay data that shouldn't be shown together, "enhanced" bar and pie charts, or directly forged data-points on plots.  
 
-Then the question arises: Why do such an obvious manipulation? Eventually people or companies that use such cheap tricks are caught and often publicly called out... Well, because *first impressions matter*, and consequences are often too mild to outweigh the benefits! 
+Then the question arises: Why do such an obvious manipulation? Eventually people or companies that use such cheap tricks are caught and often publicly called out... Well, again, for the n-th time, because *first impressions matter*, and consequences are often too mild to outweigh the benefits! 
 
 So, let's play a game: In this section I have collected a few screenshots from the news or social media. You can try yourselves to spot the visual trick used in each of those figures (some hints are given). Enjoy! 
 
