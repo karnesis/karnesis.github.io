@@ -15,14 +15,14 @@ This instantaneous access to data makes our lives much easier; we can check imme
 
 Well... in hindsight, it is now obvious that we are not very effective in exploiting this vast network of information. Instead, we find ourselves being constantly bombarded with data of dubious quality, coming from all possible directions. Sometimes, the information that reaches our screens is quite obviously ridiculous: alien probes, flat Earths, anti-vaccine junk, crab people, reptile people, people people... you name it. But quite often, the data we are being served are presented under a fancy wrapping, which makes it hard to resist or even rebut.
 
-Yes, information backed by faulty data or poor analyses is among the most dangerous. It appears credible and is challenging to verify within short timeframes, such as during a roundtable discussion or even a multi-day meeting. Consequently, individuals adept at manipulating data and information can deceive more effectively. This is exactly what we are going to focus on in this post. We are going to learn _how to lie with data_. Or, to put it correctly, _how to spot questionable analysis and faulty information_.
+Yes, information backed by faulty data or poor analyses is the most dangerous. It appears credible and is challenging to verify within short timeframes, such as during a roundtable discussion or even a multi-day meeting. Consequently, individuals adept at manipulating data and information can deceive more effectively. This is exactly what we are going to focus on in this post. We are going to learn _how to lie with data_. Or, to put it correctly, _how to spot questionable analysis and faulty information_.
 
 But _why lie with data?_ You might ask. Well, five basic reasons:
 
 1. *It's damn easy!* The most important part is that it is so easy to lie with data! In order to prove a point, we can manipulate the data, do a superficial analysis, or simply tell half the truth. Piece of cake! 
 2. *Many people do it!* Just take a look at the news, or social media, private discussions, politicians, family dinners, you name it...
 3. *First impressions matter!* They [really do](https://news.illinois.edu/view/6367/557440)! Rebuttals that come later have very little effect in correcting the sentiment of a strong first impression. Lying works!
-4. *It gets your point across with ease!* Nothing better than a few numbers to back up your claims, whether it's about politics, sports, or even, unfortunately science (where it just gets your paper published quickly and painlessly). But on a more _serious_ note about science:
+4. *It gets your point across with ease!* Nothing better than a few numbers to back up your claims, whether it's about politics, sports, or even, unfortunately science (where it just gets your paper published quickly and painlessly). But on a more _serious_ note:
 5. In the grand scheme of things, where productivity (quantity) is rewarded more than actual understanding of each other (quality), people are forced to resort to such practices. When survival is at stake, proper procedures, deep studies, reproducibility, ethics, [...], are the first to be thrown out of the window. 
 
 As already mentioned, lying with data is easy, but we need to learn how to do it properly. For that reason, I have gathered the different types of lying strategies into a few categories. For each category we can also assign a "malevolence score", which indicates the level of malevolence of the given practicer. If you hover your mouse pointer, you'll see the malevolence score:
@@ -36,7 +36,8 @@ So, let us begin with the first category, which is no other than:
 
 --- 
 
-## 1. Direct Data Manipulation (★★★★★)
+## 1. Direct Data Manipulation 
+#### Malevolence score: ★★★★★
 
 If you want to lie, directly manipulating your data is the easiest thing to do. It will make things easier for you, but it is also a quite dangerous practice. It is dangerous because eventually people get caught, and when that happens there is no way back. Forging your data is both evil and stupid, and that's why it scores 5/5 stars on the malevolence scale. While sometimes the maliciousness cannot be denied, we must acknowledge that desperate people might resort to such extreme practices. The driver is usually the very high level of competitiveness within certain fields, such as the "publish or perish" dogma in academia or being selected for the prestigious open position in the council or committee. When people are fighting for their survival, ethical dilemmas are easily bypassed, sometimes without much consideration. 
 
@@ -48,7 +49,8 @@ On the other hand it's always fun to spot direct lies by public figures, such as
 
 --- 
 
-## 2. Flawed or Biased Data (★★★☆☆)
+## 2. Flawed or Biased Data 
+#### Malevolence score: ★★★☆☆
 
 This is a very interesting case of lying with data, which, most of the time is done unintentionally. Not everyone has the background knowledge to interpret scientific graphs, let alone to correctly analyze and interpret a given set of data. One needs to be extra careful about the data available, and what they can really tell us about the question that we need to answer. Sometimes, their limitations are difficult to spot, and even experts are having trouble processing them. I mean, I am a trained scientist working with data all my life, but I wouldn't dare to try to interpret data from another scientific discipline (for example a data set of control groups for a heart condition drug). I would leave that to my fellow colleagues, who are experts in their respective fields. Let us now look at some examples of data limitations:
 
@@ -76,11 +78,12 @@ On the other hand, a too small data-set is also problematic. See the graphs belo
 </p>
 <p align=center> <i> We need more coins Jim! </i> </p>
 
-Considering the above, we can say that an easy way to lie is to just _carefully gather our data sample_ (wink), and then produce a summary statistic that suits best our narrative. Or, from the opposite point of view and on a more serious note: Before accepting a given result out of a study, we need make sure that that data used are not problematic. This is usually very challenging to do, because we may lack the expertise, the tools, or even access to the data. Thus, we need to rely experts and their supporting institutions. There are countless examples of academics, researchers, journalists, and their hosting laboratories, associations, universities, etc, that do excellent work with data gathering. Sure, sometimes mistakes have been made, but I'd like to think that it's all part of the learning process. 
+Considering the above, we can say that an easy way to lie is to just _carefully gather our data sample_ (wink), and then produce a summary statistic that suits best our narrative. Or, from the opposite point of view: Before accepting a given result out of a study, we need make sure that that data used are not problematic. This is usually very challenging to do, because we may lack the expertise, the tools, or even access to the data. Thus, we need to rely experts and their supporting institutions. There are countless examples of academics, researchers, journalists, and their hosting laboratories, associations, universities, etc, that do excellent work with data gathering. Sure, sometimes mistakes have been made, but I'd like to think that it's all part of the learning process. 
 
 --- 
 
-## 3. Abusing statistics (★★★★☆)
+## 3. Abusing statistics 
+#### Malevolence score: ★★★★☆
 
 Ah, one of my favourites... That is because it can be intentional or not, but it's always more glaring when it's the former! For the first case, it is somehow forgivable, because not everyone is really trained to interpret statistical measures of a given quantity. This is fine; we people make mistakes [_all_ the time](## "Yes, it is a constant struggle")... But it is just our responsibility to educate ourselves and others and be better! 
 
@@ -158,7 +161,8 @@ The final takeaway message is that hacking can be hidden inside the technical de
 Nowadays, data is a kind of modern currency. They are extremely valuable because by studying them we can tune our decision-making process. But they can also be used to mislead, or directly support flawed claims and malicious causes. Therefore, it is more necessary than ever to educate ourselves with the basics of statistical sciences in order to be able to assess the quality of the information out there. Unfortunately, statistics is not very easy, but that's life. In my humble opinion, I think that the experts need to be alert and react to blatant _lies that use faulty data or methods_. And this is crucial when those are used for decisions that impact the everyday life of all of us. 
 
 
-## 4. [Bonus] It’s all about presentation! (★★★★★★★★★★★★★★★★★★★)
+## 4. [Bonus] It’s all about presentation! 
+#### Malevolence score: ★★★★★★★★★★★★★★★★★★★
 
 I left the best category by far as a bonus point at the end. When data cannot be forged or manipulated, people resort to simply presenting them in a way that is convenient for their narrative. This includes tricks like zoomed-in axes, using two axes to overlay data that shouldn't be shown together, "enhanced" bar and pie charts, or directly forged data-points on plots.  
 
