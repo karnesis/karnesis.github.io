@@ -118,7 +118,7 @@ The mean can be biased due to highly skewed data, and this is the root of our mi
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/2022_Average_and_median_family_income%2C_by_age_-_US.svg/1600px-2022_Average_and_median_family_income%2C_by_age_-_US.svg.png" alt="Mean vs Median [from Wikipedia]" width="70%" height="70%">
 </p>
 
-In summary, we should always be careful with high-order statistics. When in doubt, we need to go back and look at the (distribution of the) data! Next time you hear someone claim that "I think that the average X person is much better in math than the average Y person", try to think about the possibility that this claim might have been based on a biased sample. 
+In summary, we should always be careful with high-order statistics. When in doubt, we need to go back and look at the (distribution of the) data! Next time you hear someone claim that "I think that the average X person is much better in math than the average Y person", try to think about the possibility that this claim might have been based on a highly-skewed sample. 
 
 > As a side note: Statistics is a scientific discipline that helps us make sense of systems where its components interact with each other in complex ways. In the above example, even if the statement of "X people are better at math than Y people" is true, we would want to know *why* X are so good at math. We now know that there are several factors that might contribute, such as family income, place or residence, or the overall public education system.
 
