@@ -140,7 +140,7 @@ Fitting a straight line through a cloud of points is easy, but also [pointless](
 
 A relevant problem to the ones above, is when failing to recognize hidden patterns in the data and thus extracting the wrong conclusion: Sometime ago I heard that alcohol consumption might increase performance in developing software, so I declared to my colleagues "why not try this experiment, should be fun"! The result is shown in left panel of the figure below, where as you can see, alcohol consumption did not significantly affect my performance. My colleagues seemed to have a different opinion though, because they were constantly complaining about the quality of my work. _This can't be right! I have data to defend my case!_ Well, upon closer inspection, the result completely changes after properly grouping the data! You see, my C++ skills are disproportionally higher than those of Python. This causes a certain pattern that is challenging to see at a first glance. 
 <p align="center">
-<img src="/assets/img/data-lies-post/simpson.png" alt= "I just need another beer..." width="50%" height="50%">
+<img src="/assets/img/data-lies-post/simpson.png" alt= "I just need another beer..." width="90%" height="90%">
 </p>
 This situation describes the so-called _Simpsons Paradox_, which very often is the cause of misinterpreting the data. The first example from real life comes from the famous [Berkeley case](https://www.refsmmat.com/posts/2016-05-08-simpsons-paradox-berkeley.html).
 
