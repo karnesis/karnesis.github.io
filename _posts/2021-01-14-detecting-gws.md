@@ -20,7 +20,7 @@ Each space craft will host a pair of cubic test-masses, that are going to be flo
 Contrary to ground-based detectors, when we switch LISA on we will measure gravitational wave signals coming form all types of sources simultaneously. That means that LISA is going to be a signal dominated observatory!
 
 <p align="center">
-<img src="/assets/img/searching-gws-post/ldc.png" alt= "Spectrogram of synthetic LISA data" width="50%" height="50%">
+<img src="/assets/img/searching-gws-post/ldc.png" alt= "Spectrogram of synthetic LISA data" width="70%" height="70%">
 </p>
 Example of a simplified measurement of LISA ([Source](https://lisa-ldc.lal.in2p3.fr/challenge2)). Millions of Compact Galactic Binaries (mostly White Dwarf binaries), and Supermassive Black Hole Binaries. The y axis represents the power in the TDI X channel output, while on the x-axis the frequencies are shown. TDI stands for Time Delayed Interferometry, and it is the trick we have to do in order to make those demanding measurements in space (More details can be found [here](https://arxiv.org/abs/gr-qc/0409034)).
 
