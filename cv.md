@@ -11,14 +11,14 @@ The LISA Pathfinder mission operations commenced in 2016, where I actively contr
 <p align="center">
 <img src="/assets/img/cv-pics/lpf.jpg" alt= "The LPF getting ready to launch!" width="60%" height="60%">
 </p>
-<span style="color:##808080; font-size:12px; text-align:center;">The LPF satellite is getting ready for launch!</span>
+<span style="color:##808080; font-size:12px; display:block; text-align:center;">The LPF satellite is getting ready for launch!</span>
 
 In 2020 I relocated to Greece to join the [Gravitational Wave Group at AUTh](https://niksterg.github.io/gw-group/), where, funded by the [ESA Prodex](https://www.esa.int/About_Us/Business_with_ESA/Business_Opportunities/PRODEX), the [Hellenic Foundation for Research and Innovation](https://www.elidek.gr/en/homepage/), and [Marie Sklodowska-Curie Actions](https://marie-sklodowska-curie-actions.ec.europa.eu/) programmes, I focused on gravitational wave data analysis using machine learning techniques combined with stochastic algorithms. In 2022, we organised the [1st LISA in Greece Workshop](https://indico.physics.auth.gr/event/11/), which aimed to build a national ecosystem of researchers from Greek Institutes and the local Space Industry willing to contribute to the development of the LISA mission. This workshop yielded a "critical mass" of specialised person power, supported by the Public and Private Sector. This positive outcome was documented in the [LISA in Greece White Paper](https://arxiv.org/abs/2209.04358), which was recently published. 
 
 <p align="center">
 <img src="/assets/img/cv-pics/paris_prize.png" alt= "The LPF Team getting the ESA Team Achievement Award!" width="65%" height="65%">
 </p>
-<span style="color:##808080; font-size:12px; text-align:center;">The LPF Science Team being awarded the ESA Team Achievement Award!</span>
+<span style="color:##808080; font-size:12px; display:block; text-align:center;">The LPF Science Team being awarded the ESA Team Achievement Award!</span>
 
 In 2017, the L3 mission proposal was finally selected by the organization, and the new LISA mission was established as the first space-based Gravitational Wave observatory.Finally, in 2024 LISA was [officially adopted](https://www.esa.int/Science_Exploration/Space_Science/LISA/Capturing_the_ripples_of_spacetime_LISA_gets_go-ahead) by ESA, which marked the beginning of the Phase B' of the development of the mission. The LISA Red Book, or more formally, the [LISA Definition Study Report](https://arxiv.org/abs/2402.07571), which summarizes the amazing expected science of the mission, was released shortly after.
 
