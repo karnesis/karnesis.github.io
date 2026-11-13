@@ -17,7 +17,6 @@ summary: >-
 buttons:
   - label: Publications
     url: /publications
-    primary: true
   - label: Short CV
     url: /cv
   - label: Blog

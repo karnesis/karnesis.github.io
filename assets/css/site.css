@@ -23,6 +23,8 @@
   --code-bg: #f3f4f6;
   --shadow: 0 1px 2px rgba(15, 20, 25, 0.04), 0 4px 16px rgba(15, 20, 25, 0.05);
   --radius: 12px;
+  --bg-image-opacity: 0.05;
+  --bg-image-filter: invert(1);
   --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
@@ -43,6 +45,8 @@
     --nav-bg: rgba(15, 18, 22, 0.86);
     --code-bg: #1b2129;
     --shadow: none;
+    --bg-image-opacity: 0.12;
+    --bg-image-filter: none;
   }
 }
 
@@ -59,6 +63,23 @@ body {
 }
 
 p { line-height: 1.7; margin: 1.1rem 0; }
+
+/* Faint background on every page: Webb's NIRCam image of star cluster
+   Pismis 24 (NASA, ESA, CSA, STScI, CC BY 4.0; credit in the footer).
+   Dark mode: faint galaxies on black. Light mode: inverted, even fainter. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: url("/assets/img/bg-webb-pismis24.jpg") center / cover no-repeat;
+  opacity: var(--bg-image-opacity);
+  filter: var(--bg-image-filter);
+}
+@media (orientation: portrait) {
+  body::before { background-image: url("/assets/img/bg-webb-pismis24-tall.jpg"); }
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-sans);
@@ -173,13 +194,15 @@ footer {
   padding: 2.5rem 0 2rem;
   margin-top: 3rem;
 }
-footer .copyright, footer .theme-by { color: var(--muted); font-family: var(--font-sans); }
+footer .copyright, footer .theme-by, footer .bg-credit { color: var(--muted); font-family: var(--font-sans); }
 footer a { color: var(--muted); }
 footer a:hover { color: var(--accent); }
 footer .footer-links .fa-stack .fa-circle { color: var(--border); }
 footer .footer-links .fa-stack .fa-inverse { color: var(--heading); }
 footer .footer-links a:hover .fa-circle { color: var(--accent); }
 footer .footer-links a:hover .fa-inverse { color: #fff; }
+
+footer .bg-credit { font-size: 0.8rem; margin-top: 0.5rem; }
 
 /* Search overlay */
 #beautifuljekyll-search-overlay { background: var(--bg); }
