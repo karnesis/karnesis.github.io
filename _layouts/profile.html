@@ -32,12 +32,6 @@ layout: base
   </section>
 
   <section class="section">
-    <h2 class="section-title">Recent publications</h2>
-    {% include publication-list.html limit=5 %}
-    <p class="section-more"><a href="{{ '/publications' | relative_url }}">All publications &rarr;</a></p>
-  </section>
-
-  <section class="section">
     <h2 class="section-title">From the blog</h2>
     <ul class="post-cards">
       {%- for post in site.posts limit: 3 %}
@@ -51,6 +45,12 @@ layout: base
       {%- endfor %}
     </ul>
     <p class="section-more"><a href="{{ '/blog/' | relative_url }}">All posts &rarr;</a></p>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Recent publications</h2>
+    {% include publication-list.html limit=5 %}
+    <p class="section-more"><a href="{{ '/publications' | relative_url }}">All publications &rarr;</a></p>
   </section>
 
   {{ content }}
