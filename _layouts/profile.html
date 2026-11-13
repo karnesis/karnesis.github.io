@@ -11,7 +11,7 @@ layout: base
 
   <section class="hero">
     <div class="hero-visual">
-      <img src="{{ pr.visual | relative_url }}" alt="{{ pr.visual_alt }}" width="480" height="270">
+      <canvas class="gw-hero" role="img" aria-label="{{ pr.visual_alt }}"></canvas>
     </div>
     <div class="hero-text">
       <h1 class="hero-name">{{ pr.name }}</h1>
@@ -55,3 +55,5 @@ layout: base
 
   {{ content }}
 </main>
+
+<script src="{{ '/assets/js/gw-hero.js' | relative_url }}" defer></script>

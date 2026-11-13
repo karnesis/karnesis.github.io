@@ -6,8 +6,8 @@ name: Nick Karnesis
 role: Associate Researcher
 affiliation: Research Center for Astronomy and Applied Mathematics, Academy of Athens
 affiliation_url: https://www.academyofathens.gr/en
-visual: /assets/img/gw-binary.gif
-visual_alt: Animation of two compact objects orbiting each other and emitting gravitational waves
+# The hero animation is drawn by assets/js/gw-hero.js
+visual_alt: Animation of two compact objects spiralling together and emitting gravitational waves
 
 summary: >-
   I work on **gravitational-wave data analysis** for ESA's

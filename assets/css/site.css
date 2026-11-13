@@ -212,7 +212,9 @@ footer .footer-links a:hover .fa-inverse { color: #fff; }
   background: #000;
   box-shadow: 0 0 0 1px var(--border), var(--shadow);
 }
-.profile .hero-visual img {
+.profile .hero-visual img,
+.profile .hero-visual canvas {
+  display: block;
   position: absolute;
   inset: 0;
   width: 100%;
