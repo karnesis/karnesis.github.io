@@ -1,0 +1,47 @@
+name: Update publications
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"   # 06:00 UTC on the 1st of every month
+  workflow_dispatch:       # manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+  pages: write
+  actions: write           # lets the keepalive step re-enable this schedule
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate _data/citations.csv from INSPIRE-HEP
+        run: python3 .github/scripts/update_publications.py _data/citations.csv
+
+      - name: Commit and push if the list changed
+        run: |
+          if git diff --quiet -- _data/citations.csv; then
+            echo "No changes in publication list."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/citations.csv
+          git commit -m "Update publication list from INSPIRE-HEP ($(date -u +%Y-%m-%d))"
+          git push
+
+      # Rebuild the site even when nothing changed, so the "last 4 years"
+      # window on publications.md rolls over in January.
+      - name: Request a GitHub Pages rebuild
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Rebuild request failed (non-fatal)"
+
+      # GitHub disables scheduled workflows after 60 days without repo activity;
+      # this re-enables the schedule via the API without making commits.
+      - uses: liskin/gh-workflow-keepalive@v1
