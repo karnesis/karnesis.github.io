@@ -1,0 +1,50 @@
+{%- assign p = include.p -%}
+{%- assign names = p.Authors | split: "; " -%}
+{%- assign count = p.AuthorCount | plus: 0 -%}
+{%- if count == 0 -%}{%- assign count = names.size -%}{%- endif -%}
+{%- assign shown = names.size -%}
+{%- if count > names.size -%}{%- assign shown = 3 -%}{%- endif -%}
+
+{%- capture authors -%}
+  {%- assign me_index = -1 -%}
+  {%- for n in names -%}
+    {%- assign parts = n | split: "," -%}
+    {%- assign last = parts[0] | strip -%}
+    {%- assign first = parts[1] | strip -%}
+    {%- capture full -%}{% if first != "" and first %}{{ first | slice: 0 }}. {% endif %}{{ last }}{%- endcapture -%}
+    {%- if last == include.highlight -%}
+      {%- assign me_index = forloop.index0 -%}
+    {%- endif -%}
+    {%- if forloop.index0 < shown -%}
+      {%- unless forloop.first -%}, {% endunless -%}{{ full }}
+    {%- elsif me_index == forloop.index0 -%}
+      , &hellip;, {{ full }}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if count > names.size %} et al. ({{ count }} authors){%- endif -%}
+{%- endcapture -%}
+
+{%- if p.DOI != "" and p.DOI -%}
+  {%- capture url -%}https://doi.org/{{ p.DOI }}{%- endcapture -%}
+{%- elsif p.arXiv != "" and p.arXiv -%}
+  {%- capture url -%}https://arxiv.org/abs/{{ p.arXiv }}{%- endcapture -%}
+{%- elsif p.INSPIRE != "" and p.INSPIRE -%}
+  {%- capture url -%}https://inspirehep.net/literature/{{ p.INSPIRE }}{%- endcapture -%}
+{%- else -%}
+  {%- assign url = p.Title | cgi_escape | prepend: "https://scholar.google.com/scholar?q=" -%}
+{%- endif -%}
+
+<li class="pub">
+  <a class="pub-title" href="{{ url }}">{{ p.Title }}</a>
+  <div class="pub-authors">{{ authors }}</div>
+  <div class="pub-meta">
+    {%- if p.Publication contains "arXiv preprint" -%}<em>Preprint</em>
+    {%- elsif p.Publication != "" and p.Publication -%}<em>{{ p.Publication }}</em>{%- endif -%}
+    {%- if p.Volume != "" and p.Volume %} {{ p.Volume }}{% endif -%}
+    {%- if p.Pages != "" and p.Pages -%}, {{ p.Pages }}{%- endif -%}
+    {%- if p.Year != "" and p.Year %} ({{ p.Year }}){% endif -%}
+    {%- if p.arXiv != "" and p.arXiv %} <a class="pub-tag" href="https://arxiv.org/abs/{{ p.arXiv }}">arXiv</a>{% endif -%}
+    {%- if p.DOI != "" and p.DOI %} <a class="pub-tag" href="https://doi.org/{{ p.DOI }}">DOI</a>{% endif -%}
+    {%- if p.INSPIRE != "" and p.INSPIRE %} <a class="pub-tag" href="https://inspirehep.net/literature/{{ p.INSPIRE }}">INSPIRE</a>{% endif -%}
+  </div>
+</li>

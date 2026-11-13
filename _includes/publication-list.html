@@ -1,0 +1,34 @@
+{% comment %}
+  Publication list from _data/citations.csv (generated from INSPIRE-HEP).
+
+  Parameters:
+    limit=N       flat list of the N most recent papers (no year headings)
+    years=N       with year headings: show only the N most recent years (default 3)
+    highlight     surname that is always kept visible in long author lists
+{% endcomment %}
+{%- assign highlight = include.highlight | default: "Karnesis" -%}
+{%- assign n_years = include.years | default: 3 -%}
+
+{%- if include.limit -%}
+<ul class="pub-list pub-list--compact">
+  {%- for p in site.data.citations limit: include.limit -%}
+    {%- include publication-item.html p=p highlight=highlight -%}
+  {%- endfor -%}
+</ul>
+{%- else -%}
+  {%- assign years = site.data.citations | group_by: "Year" | sort: "name" | reverse -%}
+  {%- assign shown_years = 0 -%}
+  {%- for y in years -%}
+    {%- if y.name == "" -%}{%- continue -%}{%- endif -%}
+    {%- if shown_years >= n_years -%}{%- break -%}{%- endif -%}
+    {%- assign shown_years = shown_years | plus: 1 -%}
+    <section class="pub-year">
+      <h2>{{ y.name }}</h2>
+      <ul class="pub-list">
+        {%- for p in y.items -%}
+          {%- include publication-item.html p=p highlight=highlight -%}
+        {%- endfor -%}
+      </ul>
+    </section>
+  {%- endfor -%}
+{%- endif -%}

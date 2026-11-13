@@ -1,0 +1,43 @@
+# Content of the home page (index.html, layout: profile).
+# Edit the text here; no HTML needed. Markdown is allowed in `summary`,
+# `text` and `item` fields.
+
+name: Nick Karnesis
+role: Associate Researcher
+affiliation: Research Center for Astronomy and Applied Mathematics, Academy of Athens
+affiliation_url: https://www.academyofathens.gr/en
+visual: /assets/img/gw-binary.gif
+visual_alt: Animation of two compact objects orbiting each other and emitting gravitational waves
+
+summary: >-
+  I work on **gravitational-wave data analysis** for ESA's
+  [LISA](https://www.cosmos.esa.int/web/lisa) mission: Bayesian inference,
+  stochastic signals, and the noise of space-based detectors.
+  Member of the ESA LISA Science Team.
+
+buttons:
+  - label: Publications
+    url: /publications
+    primary: true
+  - label: Short CV
+    url: /cv
+  - label: Blog
+    url: /blog/
+
+links:
+  - label: Email
+    icon: fas fa-envelope
+    url: mailto:karnesis@auth.gr
+  - label: Google Scholar
+    icon: fas fa-graduation-cap
+    url: https://scholar.google.com/citations?user=HK9PpqUAAAAJ&hl=en
+  - label: INSPIRE
+    icon: fas fa-book
+    url: https://inspirehep.net/authors/1905896
+  - label: GitHub
+    icon: fab fa-github
+    url: https://github.com/karnesis
+  - label: LinkedIn
+    icon: fab fa-linkedin
+    url: https://www.linkedin.com/in/nkarnesis
+

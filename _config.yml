@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: karnesis.github.io
+title: Nick Karnesis
 
 # Your name to show in the footer
 author: Nick Karnesis
@@ -20,11 +20,11 @@ author: Nick Karnesis
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Research: "research"
-    - Short CV: "cv"
-    - Publications: "publications"
+  About: "aboutme"
+  Research: "research"
+  Publications: "publications"
+  Blog: "blog/"
+  CV: "cv"
 
 ################
 # --- Logo --- #
@@ -32,7 +32,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/galaxy.png"
+#avatar: "/assets/img/galaxy.png"  # removed for a cleaner navbar
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -53,7 +53,7 @@ social-network-links:
   facebook: nick.karnesis
   github: karnesis
   twitter: nickkarnesis
-  inkedin: nkarnesis
+  linkedin: nkarnesis
   google-scholar: citations?user=HK9PpqUAAAAJ&hl=en
   
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
@@ -95,6 +95,9 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
+site-css:
+  - "/assets/css/site.css"
+
 url-pretty: "karnesis.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
@@ -141,16 +144,14 @@ footer-hover-col: "#0085A1"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-navbar-img: "/assets/img/bgimage2.png"
-footer-img: "/assets/img/bgimage.png"
+#navbar-img: "/assets/img/bgimage2.png"
+#footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
@@ -253,6 +254,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
+paginate_path: "/blog/page:num/"
 
 kramdown:
   input: GFM

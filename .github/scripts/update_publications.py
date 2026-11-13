@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Regenerate _data/citations.csv from the INSPIRE-HEP API.
 
-The output keeps the Google Scholar CSV layout that _includes/publications
-expects: Authors,Title,Publication,Volume,Number,Pages,Year,Publisher, with
+The output keeps the Google Scholar CSV layout (Authors,Title,Publication,
+Volume,Number,Pages,Year,Publisher) plus arXiv,DOI,AuthorCount,INSPIRE, with
 authors as "Last, First; " (first 10 only, trailing "; " always present).
 
 Usage: python3 update_publications.py [output.csv]
@@ -20,9 +20,10 @@ MAX_AUTHORS = 10
 API = "https://inspirehep.net/api"
 FIELDS = ",".join([
     "titles", "authors.full_name", "publication_info", "arxiv_eprints",
-    "earliest_date", "document_type", "control_number",
+    "earliest_date", "document_type", "control_number", "dois.value", "author_count",
 ])
-HEADER = ["Authors", "Title", "Publication", "Volume", "Number", "Pages", "Year", "Publisher"]
+HEADER = ["Authors", "Title", "Publication", "Volume", "Number", "Pages", "Year", "Publisher",
+          "arXiv", "DOI", "AuthorCount", "INSPIRE"]
 
 
 def get_json(url, retries=3):
@@ -110,6 +111,10 @@ def to_row(m):
         "Pages": pages,
         "Year": year,
         "Publisher": publisher,
+        "arXiv": arxiv or "",
+        "DOI": (m.get("dois") or [{}])[0].get("value", ""),
+        "AuthorCount": m.get("author_count") or len(m.get("authors", [])),
+        "INSPIRE": m.get("control_number", ""),
         "_date": m.get("earliest_date", year),
     }
 
